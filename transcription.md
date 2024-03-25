@@ -4,6 +4,6 @@ title: Transcription Guidelines
 permalink: /transcription/
 ---
 
-{{ page.title }}
+# {{ page.title }}
 
 This is where transcription guidelines and workflows will live.
