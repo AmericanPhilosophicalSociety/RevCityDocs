@@ -1,9 +1,9 @@
 ---
 layout: page
-title: Transcription Guidelines for Rev City
+title: Transcription Guidelines
 permalink: /transcription/
 ---
 
 # {{ page.title }}
 
-This is where transcription guidelines and workflows will live.
+This is where transcription guidelines and workflows will live. David will update soon!
