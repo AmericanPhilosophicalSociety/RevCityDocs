@@ -10,3 +10,4 @@ permalink: /digitization/
 These are the Digitization Guidelines for Rev City.
 
 ![Rev City Logo]({{ site.baseurl }}/assets/APS_Revolutionary-City_NestedLogo.jpg)
+[APS](https://www.amphilsoc.org)
