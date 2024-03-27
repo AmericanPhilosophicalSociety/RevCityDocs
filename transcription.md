@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Transcription Guidelines
+title: Transcription Guidelines for Rev City
 permalink: /transcription/
 ---
 
