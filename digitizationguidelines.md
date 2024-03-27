@@ -8,3 +8,5 @@ permalink: /digitization/
 ###### By Sabrina
 
 These are the Digitization Guidelines for Rev City.
+
+![Rev City Logo]({{ site.baseurl }}/assets/APS_Revolutionary-City_NestedLogo.jpg)
