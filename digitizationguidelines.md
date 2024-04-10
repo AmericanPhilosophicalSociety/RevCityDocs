@@ -31,7 +31,7 @@ It is vital to assess the physical condition of materials before subjecting them
 * Signs of active mold such as soft, furry spots. Active mold is sticky and can smear. Inactive mold is dry and powdery. Excessive powder should be sent to the conservation lab for clean up.
 * Difficult formats, such as scrolls, accordion books, panoramas, or oversized items
 
-### **Special Hanlding Notes**:
+### **Special Handling Notes**:
 * Bound material:
  * 
 
