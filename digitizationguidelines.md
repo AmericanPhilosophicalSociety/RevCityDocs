@@ -9,7 +9,7 @@ permalink: /digitization/
 
 This document is intended as a guide to digitization, specifically image and metadata capture for Revolutionary City: A Portal to the Nation’s Founding, a collaborative digital project using Islandora software. It will be updated as modifications in the equipment, software and/or metadata schema necessitate.
 
-##**Preparing the Work Station**  
+## **Preparing the Work Station**  
 Before any digitization takes place, the technician should ensure that all of the following conditions have been met:
 * Work on a clean, roomy, and tidy work table. Ensure that the work table is large enough to accommodate the objects and their housing enclosures.
 Be sure that the scanner bed and workspace are clean and free of dust. Use the lint-free cloths, if necessary.
