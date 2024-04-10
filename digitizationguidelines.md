@@ -21,5 +21,19 @@ Be sure that the scanner bed and workspace are clean and free of dust. Use the l
 * Do not leave valuable items unattended while away from the workspace.
 * Remove and replace materials in their containers carefully.
 
+## **Handling Materials**
+It is vital to assess the physical condition of materials before subjecting them to digitization. Please contact the project supervisor or on-site supervisor if you have any questions or concerns about digitizing any item or if you encounter any of the following issues:
+* Folds or creases obscuring text
+* Cockled, undulating paper or photos that would be damaged by scanner pressure
+* Tears greater than 1”
+* Books with loose joints or detached spines or boards
+* Restricted bindings
+* Signs of active mold such as soft, furry spots. Active mold is sticky and can smear. Inactive mold is dry and powdery. Excessive powder should be sent to the conservation lab for clean up.
+* Difficult formats, such as scrolls, accordion books, panoramas, or oversized items
+
+### **Special Hanlding Notes**:
+* Bound material:
+ * 
+
 ![Rev City Logo]({{ site.baseurl }}/assets/APS_Revolutionary-City_NestedLogo.jpg)
 [APS](https://www.amphilsoc.org)
