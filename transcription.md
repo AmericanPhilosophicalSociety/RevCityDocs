@@ -41,6 +41,8 @@ Prepare a CSV following [this template](https://github.com/AmericanPhilosophical
 - the project name you would like to have in eScriptorium
 - the machine-readable name for the folder the documents will be stored in
 
+Send your CSV to a project manager who can run the script for upload.
+
 ## Transcription Steps
 
 ### 1. Assure the pages are in the right order
