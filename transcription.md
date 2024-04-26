@@ -5,7 +5,7 @@ permalink: /transcription/
 ---
 
 # {{ page.title }}
-{: .no-toc }
+{: .no_toc }
 
 Note: This documentation is meant to supplement, not replace, the complete [eScriptorium documentation](https://escriptorium.readthedocs.io/en/latest/). Please consult the official documentation to learn about using the tool.
 
@@ -17,12 +17,12 @@ Note: This documentation is meant to supplement, not replace, the complete [eScr
 ### Upload a whole collection
 
 #### For RevCity admins:
-{: .no-toc }
+{: .no_toc }
 
 Find the Drupal NID for the collection you would like to import and send it to the project managers. They will run a script to upload the documents.
 
 #### For all others:
-{: .no-toc }
+{: .no_toc }
 
 Send a link to the collection you would like to import to the project managers.
 
@@ -59,7 +59,7 @@ Please see the [official documentation](https://escriptorium.readthedocs.io/en/l
 ### 3. Assign regions
 
 #### For correspondence
-{: .no-toc }
+{: .no_toc }
 
 - Add the regions you need for this document under "Region types" on the "Ontology" tab. Make sure you click "Update" at the bottom of the page to save your changes. For correspondence, we use the following regions:
     - Salutation
@@ -76,7 +76,7 @@ Please see the [official documentation](https://escriptorium.readthedocs.io/en/l
 - Assign region types. For the body of the letter, use the default region "Main."
 
 #### For journals
-{: .no-toc }
+{: .no_toc }
 
 - Make sure that each page has its own region.
 - Assign each region the type "Main."
@@ -86,7 +86,7 @@ Please consult the [official documentation](https://escriptorium.readthedocs.io/
 ### 4. Transcribing the document
 
 #### If using machine-assisted transcription
-{: .no-toc }
+{: .no_toc }
 
 - Confirm with your manager that you are approved for using machine assisted transcription.
 - Select all images you would like to automatically transcribe.
@@ -96,7 +96,7 @@ Please consult the [official documentation](https://escriptorium.readthedocs.io/
 - In the project log, notate that the document was automatically transcribed and list which model you used.
 
 #### If transcribing manually
-{: .no-toc }
+{: .no_toc }
 
 - Open the "Transcription" panel.
 - Click on the first line.
