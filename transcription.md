@@ -9,6 +9,8 @@ permalink: /transcription/
 
 Note: This documentation is meant to supplement, not replace, the complete [eScriptorium documentation](https://escriptorium.readthedocs.io/en/latest/). Please consult the official documentation to learn about using the tool.
 
+1. TOC
+
 {:toc }
 
 ## Uploading Documents
