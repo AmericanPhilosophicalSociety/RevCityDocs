@@ -64,7 +64,7 @@ Please see the [official documentation](https://escriptorium.readthedocs.io/en/l
     - Postscript
     - Marginalia
 - For each image, enter region mode by selecting the button with four squares  
-![eScriptorium image toolbar](/{{ site.baseurl }}/assets/image-toolbar.png)
+![eScriptorium image toolbar]({{ site.baseurl }}/assets/image-toolbar.png)
 - Draw the regions for each section. Each region should be large enough to encompass all of the lines it covers. Note that if you automatically segmented the page, the model will have guessed region areas (but not types). These will likely need to be deleted and redrawn.
 - Assign region types. For the body of the letter, use the default region "Main."
 
@@ -92,7 +92,7 @@ Please consult the [official documentation](https://escriptorium.readthedocs.io/
 - Click on the first line.
 - Transcribe each line, writing exactly what you see.
 
-Please follow our [transcription conventions and guidelines](/{{ site.baseurl }}/transcription-guidelines).
+Please follow our [transcription conventions and guidelines]({{ site.baseurl }}/transcription-guidelines).
 
 Consult the [official documentation](https://escriptorium.readthedocs.io/en/latest/transcribe/#editing-with-the-transcription-panel) if your question is not answered here.
 
@@ -100,7 +100,7 @@ Consult the [official documentation](https://escriptorium.readthedocs.io/en/late
 
 - Open the "Text" panel.
 - On the image panel, click the button with a downward arrow and two numbers to see the line order.
-![image toolbar with the reorder button highlighted](/{{ site.baseurl }}/assets/reorder-toolbar.png)
+![image toolbar with the reorder button highlighted]({{ site.baseurl }}/assets/reorder-toolbar.png)
 - On the text panel, drag the lines into their correct order to match the natural reading order of the page.
 
 See the [official documentation](https://escriptorium.readthedocs.io/en/latest/transcribe/#sorting-lines).
