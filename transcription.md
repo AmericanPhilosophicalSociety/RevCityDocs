@@ -7,10 +7,16 @@ permalink: /transcription/
 # {{ page.title }}
 {: .no_toc }
 
-Note: This documentation is meant to supplement, not replace, the complete [eScriptorium documentation](https://escriptorium.readthedocs.io/en/latest/). Please consult the official documentation to learn about using the tool.
-
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
 - TOC
 {:toc}
+</details>
+
+Note: This documentation is meant to supplement, not replace, the complete [eScriptorium documentation](https://escriptorium.readthedocs.io/en/latest/). Please consult the official documentation to learn about using the tool.
 
 ## Uploading Documents
 
