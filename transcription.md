@@ -18,7 +18,7 @@ Find the Drupal NID for the collection you would like to import and send it to t
 
 #### For all others:
 
-Send a link to the collection you would like to import and send it to the project managers.
+Send a link to the collection you would like to import to the project managers.
 
 ### Upload individual documents
 
