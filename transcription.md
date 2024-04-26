@@ -34,7 +34,7 @@ Send a link to the collection you would like to import to the project managers.
 
 ### Upload individual documents
 
-Prepare a CSV following [this template](). Your CSV should include the following:
+Prepare a CSV following [this template]({{ site.baseurl }}/templates/transcription-upload-template.csv). Your CSV should include the following:
 
 - the Drupal NID for the document
 - the title of the document as you would like it to appear in eScriptorium (should match Drupal)
