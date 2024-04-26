@@ -96,7 +96,7 @@ In eScriptorium, marginalia receives its own line. Transcribe as written. When r
 Transcribe unrounded parentheses as a slash "/". If the parentheses look like modern rounded parentheses, or if they resemble brackets, transcribe them as normal parentheses.
 
 ![Parentheses example 1]({{ site.baseurl }}/assets/slash-parens.png)
-![Parentheses example 2]({{ site.bsaeurl }}/assets/true-parens.png)
+![Parentheses example 2]({{ site.baseurl }}/assets/true-parens.png)
 ![Parentheses example 3]({{ site.baseurl }}/assets/bracket-parens.png)
 
 ## Currency Notations
