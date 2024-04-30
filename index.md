@@ -26,7 +26,7 @@ This repository aggregates documentation for workflows and best practices for Re
 
 ### Technical information
 
-RevCity is built in [Islandora](https://www.islandora.ca/){:target="_blank"}, an open-source, [Drupal](https://www.drupal.org/){:target="_blank"}-based Digital Assets Management System. RevCity's Islandora instance was built and is maintained by [Born Digital](https://www.born-digital.com/){:target="_blank"}.
+RevCity is built in [Islandora](https://www.islandora.ca/){:target="_blank"}, an open-source, [Drupal](https://www.drupal.org/){:target="_blank"}-based Digital Assets Management System. RevCity's Islandora instance was built and is maintained by [Born-Digital](https://www.born-digital.com/){:target="_blank"}.
 
 Active development is underway to leverage [IIIF](https://iiif.io/){:target="_blank"} and [OAI-PMH](https://www.openarchives.org/pmh/){:target="_blank"} to import content from partner institutions.
 
