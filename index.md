@@ -33,3 +33,7 @@ Active development is underway to leverage [IIIF](https://iiif.io/){:target="_bl
 Transcriptions are managed in a [local instance](https://transcription.amphilsoc.org){:target="_blank"} of [eScriptorium](https://gitlab.com/scripta/escriptorium){:target="_blank"}, a Django-based transcription platform that integrates the HTR software [kraken](https://github.com/mittagessen/kraken){:target="_blank"}. Additional HTR work is being conducted with [TrOCR](https://huggingface.co/docs/transformers/en/model_doc/trocr){:target="_blank"}.
 
 The code used for interoperability between these two platforms and for the processing of transcriptions is forthcoming.
+
+### Contributing
+
+If you notice an issue with this documentation or have questions or suggestions, please open an [issue on Github](https://github.com/AmericanPhilosophicalSociety/RevCityDocs/issues){:target="_blank"}.
