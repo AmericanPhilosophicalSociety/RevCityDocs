@@ -33,7 +33,22 @@ It is vital to assess the physical condition of materials before subjecting them
 
 ### **Special Handling Notes**:
 * Bound material:
- * 
+ * BINDINGS: Weak, damaged, or restricted bindings require special care to prevent further damage. Handle, open, and close these items gently and using both hands. During image capture, place these items in a book cradle.
+ * BRITTLE PAPER: Handle brittle paper with extreme care. Artwork, documents, manuscripts, prints, photographs, and their mounts can also be brittle. Use clean hands to handle paper.
+ * FOLDOUTS: Don’t remove foldouts from books. Carefully open the foldout onto a support (like a board) during image capture.
+ * IRON GALL INK: As much as is possible, avoid touching areas of iron gall ink, as this promotes further corrosion.
+ * LOOSE ITEMS: A book may contain loose items between its leaves that may need to be temporarily removed to allow digitization of the contents of a given page. Make note of the item’s location, image the item itself, and then immediately replace it following image capture.
+ * PAGE FLATTENING: Don’t apply heavy pressure to books in order to flatten them for image capture.  Such pressure can break the spine or loosen or break off brittle pages in a book. If a page cannot be imaged without being held down, options for applying gentle temporary pressure at the edges with book weights, silk thread, or polyethylene straps can be explored with the guidance of a conservator.
+* Unbound textual material:
+ * BRITTLE PAPER: Handle brittle paper with extreme care. Artwork, documents, manuscripts, prints, photographs, and their mounts can also be brittle. Use a microspatula and clean hands to handle paper.
+ * IRON GALL INK: As much as is possible, avoid touching areas of iron gall ink, as this promotes further corrosion.
+ * OVERSIZE MATERIAL: Flatbed scanners cannot safely accommodate objects larger than 12.25” x 17” (Epson Expression 12000XL) or 11.5” x 16.5” (Epson GT-15000), therefore oversize material should be scanned on the CopiBook OS XD Book Scanner.
 
-![Rev City Logo]({{ site.baseurl }}/assets/APS_Revolutionary-City_NestedLogo.jpg)
-[APS](https://www.amphilsoc.org)
+## **Scanning Equipment and Specifications**
+The type or medium of a material affects which tools are necessary to digitize it. Bound materials, unbound textual materials, maps and oversized graphic materials require different quality standards and imaging equipment.
+
+APS maintains a variety of scanning, imaging, and digitization equipment. Their specifications are listed below:
+
+
+
+
