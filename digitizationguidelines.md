@@ -49,6 +49,13 @@ The type or medium of a material affects which tools are necessary to digitize i
 
 APS maintains a variety of scanning, imaging, and digitization equipment. Their specifications are listed below:
 
+Equipment name | Type of equipment | Max scan area (H x W) | Best for 
+--- | :---: | --- | :---:
+Epson Expression 12000XL | Flatbed scanner | 12.25” x 17” | Photographic prints, photographic transparencies, graphic materials, unbound textual materials (manuscript or printed) 
+Epson GT-15000 | Flatbed scanner | 11.5” x 16.5” | Photographic prints, graphic materials, unbound textual materials (manuscript or printed)
+CopiBook OS XD | Overhead scanner | 20” x 28” | Maps, oversize graphic materials, bound volumes (manuscript or printed) 
+CopiBook Cobalt | Overhead scanner | 20” x 28” | Maps, oversize graphic materials, bound volumes (manuscript or printed) 
+
 
 
 
