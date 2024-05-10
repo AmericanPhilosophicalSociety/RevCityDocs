@@ -82,6 +82,10 @@ The files should be arranged by collection (prefixed with the collection call nu
 
 For specific information on file naming conventions, see The Revolutionary City Metadata Guidelines. For special cases, consult your project supervisor.
 
+**Back ups**
+At least two full data backups should exist. One should be kept on-site, updated daily, and used as necessary. A second backup will be kept on the APS server, so that in the event that an emergency or disaster occurs within the partner institution, a preserved copy of collections content will still exist. The Project Team will retrieve the second backup at the end of each week.
 
+## **Metadata Entry and Formatting**
+Uploads into the Rev City Portal will be carried out using Islandora Workbench, a command-line tool that allows creation, updating, and deletion of Islandora content from CSV data. This tool allows the simultaneous upload of items within multiple collections into the Islandora repository, complete with metadata. In order for Workbench to properly associate metadata with its parent and children, metadata entries must be formatted in a certain way. 
 
 
