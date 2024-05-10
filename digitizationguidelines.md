@@ -56,6 +56,32 @@ Epson GT-15000 | Flatbed scanner | 11.5” x 16.5” | Photographic prints, grap
 CopiBook OS XD | Overhead scanner | 20” x 28” | Maps, oversize graphic materials, bound volumes (manuscript or printed) 
 CopiBook Cobalt | Overhead scanner | 20” x 28” | Maps, oversize graphic materials, bound volumes (manuscript or printed) 
 
+*  Bound material should be scanned on a CopiBook Book Scanner. Detailed instructions on the CopiBook OS XD can be found here (LINK) and instructions on the CopiBook Cobalt can be found here (LINK).
+*  Unbound textual material should be scanned on an Epson Flatbed Scanner. Detailed instructions on the Epson Expression 12000 XL can be found here (LINK) and on the Epson FT-15000 can be found here (LINK).
+*  Maps and similarly oversized materials should be scanned on a CopiBook Book Scanner. Detailed instructions on the CopiBook OS XD can be found here (LINK) and instructions on the CopiBook Cobalt can be found here (LINK).
+*  Extra oversized material will need to be consulted with your supervisor.
+
+
+All digitized material should be scanned according to specifications based upon their item type. Follow the below standards for archival-quality scans:
+
+Item Type | Resolution (dpi) | Color Space | Bit Depth | File Format | Notes
+--- | :---: | :---: | :---: | :---: | :---:
+Manuscripts & (Rare) typed/printed | 400-600 | Color | 24-bit | Raw TIFF |
+(Non-rare) Typed/printed | 300-400 | Color | 24-bit | Raw TIFF | Higher resolution if item is poor in quality or legibility
+
+
+## **File Storage**
+Before scanning begins, it is important to create a folder to save the image files. All scanned images should be saved to the APS servers (if on-site) or an extrenal hard drive. Files will live here temporarily until they are ready for long-term, public-facing storage in the Rev City Portal. 
+
+File organization and naming is a vital component of maintaining a clear connection between a physical object and its corresponding digital surrogate. A good guideline to follow is to imagine being someone else, or you in a year, looking at your scans - is it obvious what they are? Are they unambiguously one specific folder or item in the finding aid?
+
+The files should be arranged by collection (prefixed with the collection call number or accession number).
+* The folder name must be the same root as the file name
+  *  Folder name = Mss_Coll_190 ;
+  *  Filenames within folder = Mss_Coll_190-001.tif, Mss_Coll_190-002.tif, Mss_Coll_190-003.tif, etc.
+
+For specific information on file naming conventions, see The Revolutionary City Metadata Guidelines. For special cases, consult your project supervisor.
+
 
 
 
