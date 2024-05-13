@@ -51,3 +51,6 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+last_edit_timestamp: true
+last_edit_time_format: "%B %e %Y"
