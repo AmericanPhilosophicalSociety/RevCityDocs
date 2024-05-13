@@ -2,6 +2,7 @@
 layout: page
 title: Transcription Conventions and Guidelines
 permalink: /transcription-guidelines/
+last_modified_date: 2024-04-26
 ---
 
 {{ page.title }}
