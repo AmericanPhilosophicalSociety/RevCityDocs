@@ -89,4 +89,16 @@ At least two full data backups should exist. One should be kept on-site, updated
 ## **Metadata Entry and Formatting**
 Uploads into the Rev City Portal will be carried out using Islandora Workbench, a command-line tool that allows creation, updating, and deletion of Islandora content from CSV data. This tool allows the simultaneous upload of items within multiple collections into the Islandora repository, complete with metadata. In order for Workbench to properly associate metadata with its parent and children, metadata entries must be formatted in a certain way. 
 
+There will be a Workbench sheet within each _Collection Metadata Management_ spreadsheet. Required fields are marked in red. Please refer to The Revolutionary City Metadata Guidelines for detailed information about each field in the spreadsheet, including how to create metadata, specific data entry and formatting.
+
+[add workbench screen capture]
+
+In addition to the Workbench sheet, the Collection Metadata Management spreadsheet also contains an _Inventory_ sheet where you will keep track of various stages of the digitization process, including scanning, metadata creation, and quality control. The Inventory sheet is meant to be used for tracking workflow, as well as a “working document” for creation of collection metadata during scanning and/or quality control.  Digitization Technicians should enter “rough” metadata into the Inventory sheet and enter complete, correctly formatted metadata to the Workbench sheet.
+
+
+## **Image Capture**
+For various scenarios below, always use your best judgment and when in doubt, consult the project supervisor!
+
+*  Leave 1 cm. of whitespace around the edges of the physical object when possible.
+ *  Exceptions:
 
