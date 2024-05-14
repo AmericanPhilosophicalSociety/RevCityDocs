@@ -131,5 +131,9 @@ When viewing images in Image Viewer or Photoshop, check for:
  
 The Project Team will perform any post scan/digitization adjustments if needed. Please contact Project Data Manager if you have any questions or concerns about the faithfulness of the scanned image(s) to the original(s).
 
-
-
+## **Quality Control Measures**
+**Images:**
+* Image review should occur at every stage of scanning - including previewing, after scanning, and after any post-processing.
+* Always perform quality control on scans at the end of a folder/box, day, or time scanning.
+  *  Make sure scans reflect items in the box or folder.
+  *  Keep the contents in the folder(s) and box(es) in order. If there is a question about the order of contents, please see institution staff.
