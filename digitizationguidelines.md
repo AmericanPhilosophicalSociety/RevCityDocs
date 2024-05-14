@@ -2,6 +2,7 @@
 layout: page
 title: Digitization Guidelines
 permalink: /digitization/
+last_modified_date: May 14 2024
 ---
 
 # {{ page.title }}
