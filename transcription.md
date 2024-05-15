@@ -2,7 +2,7 @@
 layout: page
 title: Transcription Workflow
 permalink: /transcription/
-last_modified_date: 2024-04-26
+last_modified_date: 2024-05-15
 ---
 
 # {{ page.title }}
@@ -46,9 +46,11 @@ Send your CSV to a project manager who can run the script for upload.
 
 ## Transcription Steps
 
-### 1. Assure the pages are in the right order
+### 1. Assure the pages are in the right order and delete blank pages.
 
 Go through the whole document and make sure the pages are in the right order. If they are not, drag them into the correct order.
+
+Next, delete any pages that do not contain text. If you are unsure whether a page has text, please ask your manager.
 
 ### 2. Segment the pages
 
