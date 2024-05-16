@@ -34,7 +34,7 @@ The Revolutionary City Digitization Workflow Guide
 * If you have no data for a metadata field, **leave it blank**; do not enter “N/A” or “None” or question mark.
 * Ending punctuation is not required for field content and is only recommended in fields where complete sentences are used (e.g. abstract, notes).
 * Do not use ampersands (“&”) to connect sentence elements. An ampersand should only be used when it is part of an official corporate name or logo.
-* Where multiple values are appropriate in a repeatable field (names, subjects, languages, etc.), you **must** separate them with a pipe "|" and no spaces in between values when entering into the workbench spreadsheet.
+* Where multiple values are appropriate in a repeatable field (names, subjects, languages, etc.), you **must** separate them with a pipe "\|" and no spaces in between values when entering into the workbench spreadsheet.
 * Avoid the use of abbreviations. Writing words out enables users to find items consistently and also helps to avoid confusion (such as abbreviating both County and Company to “Co.”). An exception to this rule is the use of “St.” in a city or place name (e.g. St. Peter, St. Paul or St. Benedict).
 * **Spell-check your metadata.** After entering your information into the MIK spreadsheet, run the spell check to catch any misspelled words. Also, verify the spelling of local place names and individual’s names that may not be caught during the spell-check process.
 
