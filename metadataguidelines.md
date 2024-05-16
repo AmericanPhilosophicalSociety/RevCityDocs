@@ -83,6 +83,6 @@ The Bulk Rename Utility application can be used to apply bulk changes to both fo
   *  Am_23
 * Other content types (Graphic, Audio, Video):
   *  /mnt/ingest/data/Mss_497_3_Am4-001.mp4
-  *  /mnt/ingest/media/Mss_B_P31_F8_62_5.tif
-  *  /mnt/ingest/media/audio9177.wav
+  *  /mnt/ingest/data/Mss_B_P31_F8_62_5.tif
+  *  /mnt/ingest/data/audio9177.wav
   
