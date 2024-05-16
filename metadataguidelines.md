@@ -85,4 +85,21 @@ The Bulk Rename Utility application can be used to apply bulk changes to both fo
   *  /mnt/ingest/data/Mss_497_3_Am4-001.mp4
   *  /mnt/ingest/data/Mss_B_P31_F8_62_5.tif
   *  /mnt/ingest/data/audio9177.wav
-  
+
+
+### **Total Scans**
+**Definition:**  
+**Obligation:** _Required for Book objects only!_; not repeatable  
+**Enter Data in Spreadsheet Column:** total_scans  
+**Type of field:** Integer  
+**Application:**  
+
+
+### **Resource Type**
+**Definition:** A broad term that specifies the characteristics or general physical aspect of the content of the resource.   
+**Obligation:** Required; not repeatable  
+**Enter Data in Spreadsheet Column:** field_resource_type  
+**Type of field:** Entity reference  
+**Application:**  
+* Enter the term from the controlled list below that best characterizes or describes the item. Only one value may be assigned.
+* The first letter of the term must be capitalized.
