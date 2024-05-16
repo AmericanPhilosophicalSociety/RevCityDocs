@@ -40,3 +40,49 @@ The Revolutionary City Digitization Workflow Guide
 
 **For contributors:**
 * Review the list of metadata fields prior to beginning data entry for your collections. You should look for fields that are designated as “Required.” Required fields must contain a value (if one is known). Contributing organizations must complete all required fields.
+
+## **Required Metadata**
+
+### **File**
+**Definition:** The location of files that are used to create Drupal Media.  
+**Obligation:** Required; not repeatable  
+**Enter Data in Spreadsheet Column:** file  
+**Type of field:** Text  
+**Application:**  
+* If you are uploading multiple **Book objects** (objects with multiple pages), the file column should be formatted:
+  *  Enter the folder name that contains the media
+  *  The folder name must be the same root as the file name
+  
+      Folder name = Mss_Coll_190  (this is entered in the _file_ field only)
+      Filenames within folder = Mss_Coll_190-001.tif, Mss_Coll_190-002.tif, etc.
+
+* If you are uploading multiple **Single Graphics, Audio, or Video objects**, the file column should be formatted:
+  *  Enter the appropriate **directory path** and individual filename with file extension.
+
+For file names in general:
+* Only use alphanumeric characters without diacritics, and underscores and hyphens, i.e. [a-z] [A-Z] [0-9] [_] [-]
+* Periods should only be used for the file extension.
+* File names generally follow this pattern:
+
+Prefix (root) | Separator | Number | Period | Extension 
+--- | --- | --- | --- | --- |
+Mss_Ms_Coll_190 | - | 001 | . | tif 
+
+  *  The **prefix** identifies the file as part of a collection, and should contain the collection call number, item identifier, or any other useful information. It should not be long, and is not intended to include all necessary metadata. It cannot contain hyphens, but can contain underscores.
+  *  The **separator** (a hyphen) separates the prefix from the file number.
+  *  The **number** is used to distinguish sequential files, e.g. pages in a folder or book, or photographs in an album. It should be padded to at least three digits, resulting in e.g. [001, 002,..., 099, 100] instead of [1, 2,..., 99, 100], which may alphabetize differently on different systems.
+  *  The **period** separates the main file name from the extension, and should only be used once.
+  *  The **extension** identifies the type of file, and is typically added automatically.
+
+The Bulk Rename Utility application can be used to apply bulk changes to both folder and file names. 
+
+**Examples:**
+* Book object:
+  *  Mss_B_F_327_001
+  *  Coll_190_001
+  *  Am_23
+* Other content types (Graphic, Audio, Video):
+  *  /mnt/ingest/data/Mss_497_3_Am4-001.mp4
+  *  /mnt/ingest/media/Mss_B_P31_F8_62_5.tif
+  *  /mnt/ingest/media/audio9177.wav
+  
