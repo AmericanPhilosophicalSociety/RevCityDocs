@@ -6,7 +6,6 @@ last_modified_date: May 14 2024
 ---
 
 # {{ page.title }}
-###### By Sabrina
 
 This document is intended as a guide to digitization, specifically image and metadata capture for _The Revolutionary City: A Portal to the Nation’s Founding_, a collaborative digital project using Islandora software. It will be updated as modifications in the equipment, software and/or metadata schema necessitate.
 
