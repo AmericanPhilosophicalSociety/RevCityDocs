@@ -120,7 +120,7 @@ Text | http://purl.org/dc/dcmitype/Text
 
 Note: The Born-Digital Islandora 2.0 theme requires specific combinations of Resource Type and Model terms in order for compound objects, collections, and paged objects to display correctly. Please refer to Appendix B: Born-Digital Islandora 2.0 Theme Object View Configurations.
 
-**Example:**  
+**Example:**   
 Object Type | Resource Type term | Islandora Model term  
 --- | --- | --- 
 Collection | Collection | Collection 
@@ -217,6 +217,7 @@ Video | Moving Image | Video
   *  Use brackets for guessed name (e.g. [Sabrina] Bocanegra) in the description field
  
 **Examples:**  
+
 Type of Object | Title  
 --- | --- 
 Correspondence | Adams, Samuel to Sally Preston Adams, 1778 July 20 
