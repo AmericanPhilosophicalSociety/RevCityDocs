@@ -169,5 +169,61 @@ Page | Text | Page
 PDF | [any] | Digital Document 
 Video | Moving Image | Video 
 
+### **Member of**  
+**Definition:** Determines the parent of the object. It is used to identify the collection to which an object belongs, or the parent/container object if the object is a page or compound object.  
+**Obligation:** Required (if adding to a pre-existing collection); not repeatable  
+**Enter Data in Spreadsheet Column:** field_member_of  
+**Type of field:** node reference  
+**Application:**  
+* For the purposes of Workbench, the Member Of column is used if you have a pre-existing collection in Drupal into which you want to ingest an object. In this case, you will enter the collection’s node ID in the Member Of column in the object row that belongs to the collection.
+* If you are adding a new collection to Drupal, you will leave this column blank. However you will not delete the column when ready for ingest.
+
+### **Title**  
+**Definition:** A word, phrase, character, or group of characters, normally appearing in a resource, that names it or the work contained in it.  
+**Obligation:** Required; not repeatable (Exactly one main title is required; for additional titles, use Alternative Title or Subtitle fields)  
+**Enter Data in Spreadsheet Column:** title AND field_metadata_title  
+**Type of field:** Text  
+**Application:**  
+* _title_ column must be contain a value for Islandora Workbench purposes. This will be the header on the object page, and will display as the object title on collection and search results pages.
+* _field_metadata_title_ column must contain the same value as above in _title_ field. This will display as the object title in the metadata portion of the object page.
+* For correspondence and like materials: its title should be entered as “Last Name, First Name to First Name Last Name”
+
+   Montgomery, Dorcas Armitage to Sarah Franklin Bache, 1783 July 26
+  
+* If the date is part of an item’s title, generally the case with items of correspondence or several documents with the same name (like ‘Lecture Notes,’ etc.), the date will appear in the title following the title text and a comma. It should follow the format of ‘YYYY Month (spelled out) DD - Month (spelled out) DD’.
+
+  Lecture Notes, 1802 January 31 - February 2
+
+* If an item spans multiple years, it should follow the format of ‘YYYY-YYYY’.
+
+  Lecture Notes, 1802-1805
+
+**Additional information regarding titles:**
+* An item should have a brief, descriptive, and unique title. The title should describe the item in basic terms, but should not attempt to supply an exhaustive description.
+* If there are multiple items with the same title, additional information is needed to make each title unique. This could be a date, a location, or a number.
+* The title may be transcribed from the item itself (book title, photograph caption, artist's title, item name, etc.). 
+  *  Write out the title the way it appears.
+  *  If the material has been published, format title following sentence structure (first word and proper nouns capitalized)
+  *  Keep other capitalization the same as it is found on the item.
+* If no title exists: 
+  *  Construct one using accepted standards (DACS 2.3).
+  *  Compose a title for the item similar to one found in a digital library or similar resource (including OCLC Worldcat)
+  *  Do not put the call number, file name, or other identification numbers in the title
+  *  Use the same capitalization for all titles in a record unless there is a reason not to do so (e.g., authorized series titles)
+  *  Write out abbreviations or acronyms
+* Separate titles and subtitles with a colon
+* When a name is unknown/guessed:
+  *  Use “Unknown recipient” or “Unknown author” - for unknown name
+  *  Use brackets for guessed name (e.g. [Sabrina] Bocanegra) in the description field
+ 
+**Examples:**  
+Type of Object | Title 
+--- | --- 
+Correspondence | Adams, Samuel to Sally Preston Adams, 1778 July 20
+Diary/Journal | Elizabeth Farmer letter book, 1774-1789
+Broadside | In committee, December 14, 1774. Resolved, that the proceedings of this committee on November 30th, concerning the killing of sheep be republished in the English and German newspapers, and also in hand bills, to be dispersed through the markets of this city, viz. ...
+Minutes | Society of Friends minutes
+
+
 
 
