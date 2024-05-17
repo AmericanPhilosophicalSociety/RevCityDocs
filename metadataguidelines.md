@@ -236,7 +236,7 @@ Minutes | Society of Friends minutes
 * Note: This field  is only used by Workbench and is not migrated into the Repository Item node.
 
 Example:
- [screenshot of APS workbench sheet]
+ [screenshot of Rev City workbench sheet]
 
 ### **Parent**  
 **Definition:** Defines the relationship between parent and child objects or nodes.  
@@ -250,9 +250,9 @@ Example:
 * Note: This is only used by Workbench and is not migrated into the Repository Item node.
 
 Example:
- [screenshot of APS workbench sheet]
+ [screenshot of Rev City workbench sheet]
 
- ### **Weight**  
+### **Weight**  
 **Definition:** Indicates the order of a resource in a collection of resources (used for compound objects and paged content).  
 **Obligation:** required for Book Objects only!; not repeatable  
 **Enter Data in Spreadsheet Column:** field_weight  
@@ -260,6 +260,28 @@ Example:
 **Application:**  
 * This value will be added by **Administrator** through a python script; leave blank and do not delete the column
 * This is only used by Workbench and is not migrated into the Repository Item node.
+
+Example:
+ [screenshot of Rev City workbench sheet]
+
+ ## **Digital Origin**
+**Definition:** The method by which a resource achieved digital form.  
+**Obligation:** Required; not repeatable  
+**Enter Data in Spreadsheet Column:** field_digital_origin  
+**Type of field:** Entity reference  
+**Application:**   
+* Enter the term from the controlled list below that best characterizes or describes the item.
+* Most content will be "Reformatted digital" indicating that it is a digital facsimile of an original physical object.
+* Use "digitized other analog" only when the digital resource was created by digitizing an intermediate form other than microform, such as a photocopy, of the original.
+* The first letter of the term must be capitalized.
+
+Digital Origin Term | Definition 
+--- | ---
+Reformatted digital | A resource was created by digitization of the original which was in a non-digital form (except original microforms). This value will be used most commonly.
+Born digital | A resource was created in and is intended to remain in digital form.
+Digitized microfilm | A resource was created by digitizing a microform [microfilm/microfiche].
+Digitized other analog | A resource was created by digitizing an intermediate form of the original resource (but not microform) such as photocopy, transparency, slide, 2nd generation analog tapes, etc. [might include carbon copies]
+
 
 
 
