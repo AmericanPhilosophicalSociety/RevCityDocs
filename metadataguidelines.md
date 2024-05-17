@@ -238,7 +238,29 @@ Minutes | Society of Friends minutes
 Example:
  [screenshot of APS workbench sheet]
 
- 
+### **Parent**  
+**Definition:** Defines the relationship between parent and child objects or nodes.  
+**Obligation:** required, not repeatable  
+**Enter Data in Spreadsheet Column:** parent_id  
+**Type of field:** Number (integer)
+**Application:**
+* For new collections, you must enter the proper number from the _id_ field into the _parent_id_ column. 
+* If the collection into which you are ingesting the object already exists in the Portal, you can use field_member_of to identify the parent using its node ID. 
+  *  In that case, the Book Parent would not have anything in the _parent_id_ column, but would include the collection node ID in the _field_member_of_ column.
+* Note: This is only used by Workbench and is not migrated into the Repository Item node.
+
+Example:
+ [screenshot of APS workbench sheet]
+
+ ### **Weight**  
+**Definition:** Indicates the order of a resource in a collection of resources (used for compound objects and paged content).  
+**Obligation:** required for Book Objects only!; not repeatable  
+**Enter Data in Spreadsheet Column:** field_weight  
+**Type of field:** Number (integer)  
+**Application:**  
+* This value will be added by **Administrator** through a python script; leave blank and do not delete the column
+* This is only used by Workbench and is not migrated into the Repository Item node.
+
 
 
 
