@@ -226,7 +226,7 @@ Minutes | Society of Friends minutes
 
 ### **Id**  
 **Definition:** A unique identifier specifically used for Islandora Workbench as a reference to match objects with its parent collections.
-**Obligation:** required; not repeatable  
+**Obligation:** Required; not repeatable  
 **Enter Data in Spreadsheet Column:** id  
 **Type of field:** Number (integer)  
 **Application:**  
@@ -240,7 +240,7 @@ Example:
 
 ### **Parent**  
 **Definition:** Defines the relationship between parent and child objects or nodes.  
-**Obligation:** required, not repeatable  
+**Obligation:** Required, not repeatable  
 **Enter Data in Spreadsheet Column:** parent_id  
 **Type of field:** Number (integer)
 **Application:**
@@ -254,7 +254,7 @@ Example:
 
 ### **Weight**  
 **Definition:** Indicates the order of a resource in a collection of resources (used for compound objects and paged content).  
-**Obligation:** required for Book Objects only!; not repeatable  
+**Obligation:** _Required for Book Objects only!_; not repeatable  
 **Enter Data in Spreadsheet Column:** field_weight  
 **Type of field:** Number (integer)  
 **Application:**  
@@ -299,7 +299,33 @@ Digitized other analog | A resource was created by digitizing an intermediate fo
 * Amb.1752
 * Coll740
 
+### **Parent Collection Title**
+**Definition:** The name of a collection of which the item being described is a part.  
+**Obligation:** Required; not repeatable  
+**Enter Data in Spreadsheet Column:** field_collection2  
+**Type of field:**  Entity reference  
+**Application:**  
+* Enter the item’s specific/named collection located within the contributing organization’s larger collection.
+* Enter the title exactly as it appears in the accession record or finding aid
 
+**Examples:**
+* The Sol Feinstone collection of the American Revolution, ca. 1760s-1850s
+* Julia Rush letters, 1776-1809
+* Spokane primer, 1976
+
+### **Parents Finding Aid URL**
+**Definition:** Internet address of the finding aid, collection description, or other guide for understanding and accessing the repository collection to which the resource belongs.  
+**Obligation:** Required if applicable; not repeatable  
+**Enter Data in Spreadsheet Column:** field_collection_url  
+**Type of field:** Link  
+**Application:**  
+* Enter the URL of the finding aid or other collection guide. **Enter the URL only.**
+* Do not include entire URL when pulling from a search 
+
+  Correct: https://search.amphilsoc.org/collections/view?docId=ead/Mss.DLAR.Film.706-ead.xml
+  Incorrect: https://search.amphilsoc.org/collections/view?docId=ead/Mss.DLAR.Film.706-ead.xml;query=Jasper%20Yeates%20papers;brand=default
+
+  
 
 
 
