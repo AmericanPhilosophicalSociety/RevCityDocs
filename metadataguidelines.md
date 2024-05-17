@@ -224,6 +224,21 @@ Diary/Journal | Elizabeth Farmer letter book, 1774-1789
 Broadside | In committee, December 14, 1774. Resolved, that the proceedings of this committee on November 30th, concerning the killing of sheep be republished in the English and German newspapers, and also in hand bills, to be dispersed through the markets of this city, viz. ... 
 Minutes | Society of Friends minutes 
 
+### **Id**  
+**Definition:** A unique identifier specifically used for Islandora Workbench as a reference to match objects with its parent collections.
+**Obligation:** required; not repeatable  
+**Enter Data in Spreadsheet Column:** id  
+**Type of field:** Number (integer)  
+**Application:**  
+* Each row in the spreadsheet should have a value in this field. 
+* No row should have the same id.
+* Numbers should start sequentially from 1.
+* Note: This field  is only used by Workbench and is not migrated into the Repository Item node.
+
+Example:
+ [screenshot of APS workbench sheet]
+
+ 
 
 
 
