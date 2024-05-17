@@ -104,7 +104,7 @@ The Bulk Rename Utility application can be used to apply bulk changes to both fo
 * Enter the term from the controlled list below that best characterizes or describes the item. Only one value may be assigned.
 * The first letter of the term must be capitalized.
 
-Term name | External link 
+Term name | External link  
 --- | --- 
 Collection | http://purl.org/dc/dcmitype/Collection 
 Data Set | http://purl.org/dc/dcmitype/Dataset 
@@ -121,7 +121,7 @@ Text | http://purl.org/dc/dcmitype/Text
 Note: The Born-Digital Islandora 2.0 theme requires specific combinations of Resource Type and Model terms in order for compound objects, collections, and paged objects to display correctly. Please refer to Appendix B: Born-Digital Islandora 2.0 Theme Object View Configurations.
 
 **Example:**  
-Object Type | Resource Type term | Islandora Model term 
+Object Type | Resource Type term | Islandora Model term  
 --- | --- | --- 
 Collection | Collection | Collection 
 Audio | Sound | Audio 
@@ -142,7 +142,7 @@ Video | Moving Image | Video
 * Enter the term from the controlled list below that best characterizes or describes the item. Only one value may be assigned.
 * The first letter of the term must be capitalized.
 
-Term Name | External URI 
+Term Name | External URI  
 --- | --- 
 Audio | http://purl.org/coar/resource_type/c_18cc 
 Binary | http://purl.org/coar/resource_type/c_1843 
@@ -158,7 +158,7 @@ Video | http://purl.org/coar/resource_type/c_12ce
 
 Note: The Born-Digital Islandora 2.0 theme requires specific combinations of Resource Type and Model terms in order for compound objects, collections, and paged objects to display correctly. Please refer to Appendix B: Born-Digital Islandora 2.0 Theme Object View Configurations.
 
-Object Type | Resource Type term | Islandora Model term 
+Object Type | Resource Type term | Islandora Model term  
 --- | --- | --- 
 Collection | Collection | Collection 
 Audio | Sound | Audio 
@@ -217,7 +217,7 @@ Video | Moving Image | Video
   *  Use brackets for guessed name (e.g. [Sabrina] Bocanegra) in the description field
  
 **Examples:**  
-Type of Object | Title 
+Type of Object | Title  
 --- | --- 
 Correspondence | Adams, Samuel to Sally Preston Adams, 1778 July 20 
 Diary/Journal | Elizabeth Farmer letter book, 1774-1789 
