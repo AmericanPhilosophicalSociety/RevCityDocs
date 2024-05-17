@@ -264,7 +264,7 @@ Example:
 Example:
  [screenshot of Rev City workbench sheet]
 
- ## **Digital Origin**
+### **Digital Origin**
 **Definition:** The method by which a resource achieved digital form.  
 **Obligation:** Required; not repeatable  
 **Enter Data in Spreadsheet Column:** field_digital_origin  
@@ -281,6 +281,23 @@ Reformatted digital | A resource was created by digitization of the original whi
 Born digital | A resource was created in and is intended to remain in digital form.
 Digitized microfilm | A resource was created by digitizing a microform [microfilm/microfiche].
 Digitized other analog | A resource was created by digitizing an intermediate form of the original resource (but not microform) such as photocopy, transparency, slide, 2nd generation analog tapes, etc. [might include carbon copies]
+
+
+### **Parent Collection Call Number**
+**Definition:** Local call number or accession number for the original source object.  
+**Obligation:** Required if applicable; not repeatable  
+**Enter Data in Spreadsheet Column:** field_parent_collection_call_num  
+**Type of field:** Text (plain)  
+**Application:**  
+* Enter the item’s specific/named collection number identifier located within the contributing organization’s larger collection.
+* Do not leave spaces between periods.
+
+**Examples:**
+* Mss.B.F327
+* Mss.Ms.Coll.73
+* Mss.497.3.Sp5
+* Amb.1752
+* Coll740
 
 
 
