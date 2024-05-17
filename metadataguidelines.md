@@ -103,3 +103,33 @@ The Bulk Rename Utility application can be used to apply bulk changes to both fo
 **Application:**  
 * Enter the term from the controlled list below that best characterizes or describes the item. Only one value may be assigned.
 * The first letter of the term must be capitalized.
+
+Term name | External link 
+--- | ---
+Collection | http://purl.org/dc/dcmitype/Collection
+Data Set | http://purl.org/dc/dcmitype/Dataset
+Image | http://purl.org/dc/dcmitype/Image
+Interactive Resource | http://purl.org/dc/dcmitype/InteractiveResource
+Moving Image | http://purl.org/dc/dcmitype/MovingImage
+Physical Object | http://purl.org/dc/dcmitype/PhysicalObject
+Service | http://purl.org/dc/dcmitype/Service
+Software | http://purl.org/dc/dcmitype/Software
+Sound | http://purl.org/dc/dcmitype/Sound
+Still Image | http://purl.org/dc/dcmitype/StillImage
+Text | http://purl.org/dc/dcmitype/Text
+
+Note: The Born-Digital Islandora 2.0 theme requires specific combinations of Resource Type and Model terms in order for compound objects, collections, and paged objects to display correctly. Please refer to Appendix B: Born-Digital Islandora 2.0 Theme Object View Configurations.
+
+**Example:**
+Object Type | Resource Type term | Islandora Model term 
+--- | --- | ---
+Collection | Collection | Collection
+Audio | Sound | Audio
+Basic Image (jpg) | Still Image | Image
+Book (parent of pages) | Collection | Paged Content
+Large Image (tif) | Still Image | Image
+Page | Text | Page
+PDF | [any] | Digital Document
+Video | Moving Image | Video
+
+
