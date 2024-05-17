@@ -134,10 +134,10 @@ Video | Moving Image | Video |
 
 
 ### **Model**
-**Definition:** Type of content being represented by a node (e.g. an image, a video, a collection of other items, etc...)
-**Obligation:** Required; not repeatable
-**Enter Data in Spreadsheet Column:** field_model
-**Type of field:** Entity reference
+**Definition:** Type of content being represented by a node (e.g. an image, a video, a collection of other items, etc...)  
+**Obligation:** Required; not repeatable  
+**Enter Data in Spreadsheet Column:** field_model  
+**Type of field:** Entity reference  
 **Application:**  
 * Enter the term from the controlled list below that best characterizes or describes the item. Only one value may be assigned.
 * The first letter of the term must be capitalized.
