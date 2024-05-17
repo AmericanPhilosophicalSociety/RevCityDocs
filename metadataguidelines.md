@@ -105,18 +105,18 @@ The Bulk Rename Utility application can be used to apply bulk changes to both fo
 * The first letter of the term must be capitalized.
 
 Term name | External link 
---- | ---
-Collection | http://purl.org/dc/dcmitype/Collection
-Data Set | http://purl.org/dc/dcmitype/Dataset
-Image | http://purl.org/dc/dcmitype/Image
-Interactive Resource | http://purl.org/dc/dcmitype/InteractiveResource
-Moving Image | http://purl.org/dc/dcmitype/MovingImage
-Physical Object | http://purl.org/dc/dcmitype/PhysicalObject
-Service | http://purl.org/dc/dcmitype/Service
-Software | http://purl.org/dc/dcmitype/Software
-Sound | http://purl.org/dc/dcmitype/Sound
-Still Image | http://purl.org/dc/dcmitype/StillImage
-Text | http://purl.org/dc/dcmitype/Text
+--- | --- 
+Collection | http://purl.org/dc/dcmitype/Collection 
+Data Set | http://purl.org/dc/dcmitype/Dataset 
+Image | http://purl.org/dc/dcmitype/Image 
+Interactive Resource | http://purl.org/dc/dcmitype/InteractiveResource 
+Moving Image | http://purl.org/dc/dcmitype/MovingImage 
+Physical Object | http://purl.org/dc/dcmitype/PhysicalObject 
+Service | http://purl.org/dc/dcmitype/Service 
+Software | http://purl.org/dc/dcmitype/Software 
+Sound | http://purl.org/dc/dcmitype/Sound 
+Still Image | http://purl.org/dc/dcmitype/StillImage 
+Text | http://purl.org/dc/dcmitype/Text 
 
 Note: The Born-Digital Islandora 2.0 theme requires specific combinations of Resource Type and Model terms in order for compound objects, collections, and paged objects to display correctly. Please refer to Appendix B: Born-Digital Islandora 2.0 Theme Object View Configurations.
 
@@ -126,7 +126,7 @@ Object Type | Resource Type term | Islandora Model term
 Collection | Collection | Collection 
 Audio | Sound | Audio 
 Basic Image (jpeg) | Still Image | Image 
-Book (parent of pages) | Still Image | Image
+Book (parent of pages) | Still Image | Image 
 Large Image (tiff) | Still Image | Image 
 Page | Text | Page 
 PDF | [any] | Digital Document 
@@ -144,17 +144,17 @@ Video | Moving Image | Video
 
 Term Name | External URI 
 --- | --- 
-Audio | http://purl.org/coar/resource_type/c_18cc
-Binary | http://purl.org/coar/resource_type/c_1843
-Collection | http://purl.org/dc/dcmitype/Collection#Model
-Compound Object | http://vocab.getty.edu/aat/300242735
-Digital Document | https://schema.org/DigitalDocument
-Image | http://purl.org/coar/resource_type/c_c513
-Newspaper | https://schema.org/Newspaper
-Page | http://id.loc.gov/ontologies/bibframe/part
-Paged Content | https://schema.org/Book
-Publication Issue | https://schema.org/PublicationIssue
-Video | http://purl.org/coar/resource_type/c_12ce
+Audio | http://purl.org/coar/resource_type/c_18cc 
+Binary | http://purl.org/coar/resource_type/c_1843 
+Collection | http://purl.org/dc/dcmitype/Collection#Model 
+Compound Object | http://vocab.getty.edu/aat/300242735 
+Digital Document | https://schema.org/DigitalDocument 
+Image | http://purl.org/coar/resource_type/c_c513 
+Newspaper | https://schema.org/Newspaper 
+Page | http://id.loc.gov/ontologies/bibframe/part 
+Paged Content | https://schema.org/Book 
+Publication Issue | https://schema.org/PublicationIssue 
+Video | http://purl.org/coar/resource_type/c_12ce 
 
 Note: The Born-Digital Islandora 2.0 theme requires specific combinations of Resource Type and Model terms in order for compound objects, collections, and paged objects to display correctly. Please refer to Appendix B: Born-Digital Islandora 2.0 Theme Object View Configurations.
 
@@ -163,7 +163,7 @@ Object Type | Resource Type term | Islandora Model term
 Collection | Collection | Collection 
 Audio | Sound | Audio 
 Basic Image (jpeg) | Still Image | Image 
-Book (parent of pages) | Still Image | Image
+Book (parent of pages) | Still Image | Image 
 Large Image (tiff) | Still Image | Image 
 Page | Text | Page 
 PDF | [any] | Digital Document 
