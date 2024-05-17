@@ -120,7 +120,7 @@ Text | http://purl.org/dc/dcmitype/Text
 
 Note: The Born-Digital Islandora 2.0 theme requires specific combinations of Resource Type and Model terms in order for compound objects, collections, and paged objects to display correctly. Please refer to Appendix B: Born-Digital Islandora 2.0 Theme Object View Configurations.
 
-**Example:**
+**Example:**  
 Object Type | Resource Type term | Islandora Model term 
 --- | --- | ---
 Collection | Collection | Collection
@@ -131,5 +131,6 @@ Large Image (tif) | Still Image | Image
 Page | Text | Page
 PDF | [any] | Digital Document
 Video | Moving Image | Video
+
 
 
