@@ -505,6 +505,25 @@ Multiple dates | YYYY\|YYYY\|YYYY | 1771\|1775\|1779
 * 2021-04-01
 
 
+### **Extent**
+**Definition:** A statement of the number of the units (pages), file size, or duration of the resource.  
+**Obligation:** Recommended; repeatable  
+**Enter Data into Spreadsheet Column:** field_extent  
+**Type of field:** Text (plain)  
+**Application:**  
+* Add the number of pages included in the item except for blank pages.
+* A page is considered a page if it contains text, sketches, or any other markings including contemporary writing by creator/recipient/collaborator or later writing by donor/archivist/cataloger
+* If pages, format as follows: [Number of pages][lowercase p][period] with no spaces in between.
+
+Type of material | Sample extent
+--- | ---
+Letter | 4p.
+Diary | 156p.
+Oral history interview | 1:04:24
+Song recording | 0:03:55 
+
+
+
 
 
 
