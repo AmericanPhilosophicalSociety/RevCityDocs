@@ -57,7 +57,7 @@ Next, delete any pages that do not contain text. If you are unsure whether a pag
 - Select all images you would like to segment automatically
     - Generally this can be used for any plain text page.
     - Pages with strange formats (upside down or sideways text) will not perform well
-    - If you segment too many pages at once, the process may fail
+    - *Warning*: Only segment 2-3 pages at a time. If you select too many, the process may fail and put undue stress on the system.
 - Click the "Segment" button.
 - After the popup appears telling you that the pages have been segmented, verify that the segmentation is good.
     - Correct any lines that are too small or too large.
