@@ -402,7 +402,7 @@ Waging the War | The Revolutionary War was, after all, a violent confrontation. 
 * Do not use abbreviations, ampersands or paragraph and line breaks. Maintain standard capitalization rules. Do not use all capital letters to set words or phrases apart or to denote importance.
 * This field may include information that a user will be able to see in the item. For example, does the item contain a sketch or illustration? How about an inscription or caption?
 
-**Additional information regarding Abstract:**
+Additional information regarding Abstract:  
 * You may want to include keywords in your text that end users will likely search for that are not already included in the _title_ or _subject_ fields. Incorporating keywords can provide additional access points for searching. This element provides end users with information about the digital resource that assists them in making a judgment about its likely usefulness, and also provides context, if needed, for controlled vocabulary used in the record. For example, a photograph of trolleys would have street railroads in the subject field using the Thesaurus for Graphic Materials (TGM). The more common word, trolleys, could be included in the _abstract_.
 * Be descriptive but only include detail that would be helpful to users!
 
@@ -430,11 +430,62 @@ Minutes | Minutes that record the disciplining of Timothy Davis, who wrote a pie
 **Example:**  
 The Sol Feinstone Collection on the American Revolution, ca. 1760s-1850s finding aid contains item-level cataloging. The title of each item in the finding aid contains a “No.” To avoid confusion in the digital library and conform to project standards as given in this guide - we’ve added the finding aid title as the Alternative Title and created a new title following RevCity guidelines.  
 
-  Title = Adams, Samuel to Sally Preston Adams, 1778 June 7  
-  Alternative Title = No. 27 Dr. Samuel Adams to Sally Preston Adams  
+   Title = Adams, Samuel to Sally Preston Adams, 1778 June 7  
+   Alternative Title = No. 27 Dr. Samuel Adams to Sally Preston Adams  
 
 
-  
+### **Date Created**
+**Definition:** The date of creation of the original resource.  
+**Obligation:** Highly recommended; repeatable  
+**Enter Data into Spreadsheet Column:** field_edtf_date_created **AND/OR** field_date_created_text 
+**Type of field:** EDTF and Text (plain)
+**Application:**
+* Use _field_edtf_date_created_ for: known numerical dates – 1776-07-04
+  *  Must conform to Extended Date/Time Format (EDTF) standards.
+  *  See (https://www.loc.gov/standards/datetime/) for more information.
+  *  Use the validator (https://digital2.library.unt.edu/edtf/) if unsure your date value conforms to EDTF standard.
+  *  If the date is unknown, leave the field blank.
+* Use _field_date_created_text_ for: plain text dates – undated, approximately 1930s
+  *  Never write the date as **n.d.** if the date is unknown, only use the term undated.
+  *  If only the Day of the Week is available i.e. Wednesday morning, then add to this field.
+
+
+Additional information regarding Date:  
+* When the resource being described is a collection or folder of items, a date range can be used to describe the creation date range of all the resources.
+* Creation date refers to the date of the exact item described in the record, even if it is a derivation.
+* If the item is a reprint or revision of an original text:
+  *  Use the date of the reprint/revisions
+  *  Include a note about the original text and printing date
+* If the item is a copy negative:
+  *  Use the date that the copy negative was created
+  *  The date of the original photographs may be included in a note or description
+* If there is no letter or message written on postcards or greeting cards:
+  *  The item is treated as a photograph or piece of artwork
+  *  Use the date that the photograph was taken or the drawing was done
+* If the postcard or greeting card has a letter or message written on/in it:
+  *  The item is treated as a piece of correspondence
+  *  Use the date that the letter was written or that the card was postmarked
+ 
+
+Type of Date | Format | Example 
+--- | --- | ---
+Year only | YYYY | 1776
+Year and Month | YYYY-MM | 1778-01
+Year, Month and Day | YYYY-MM-DD | 1779-10-31
+Date range | YYYY/YYYY | 1774/1783
+Date range | YYYY-MM/YYYY-MM | 1775-01/1775-12
+Date range | YYYY-MM-DD/YYYY-MM-DD | 1781-02-02/1783-01-31
+Seasons | YYYY-21 (Spring), 22 (Summer), 23 (Autumn), or 24 (Winter) | 1778-24
+Date uncertain | YYYY? | 1774?
+Date approximate | YYYY-MM~ | 1776-07~
+Date uncertain and approximate | YYYY-DD-MM% | 1780-06-28%
+Year with unknown digit | YYXX | 17XX
+Unspecified digit | YYYX-MM-DD | 178X-07-04
+Year and Month uncertain | YYYY-MM~-DD | 1774-05~-20
+Multiple dates | YYYY\|YYYY\|YYYY | 1771\|1775\|1779
+
+***Please consult EDTF standards for more information on formatting.**
+
 
 
 
