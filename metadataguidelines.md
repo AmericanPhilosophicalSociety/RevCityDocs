@@ -439,12 +439,12 @@ The Sol Feinstone Collection on the American Revolution, ca. 1760s-1850s finding
 **Obligation:** Highly recommended; repeatable  
 **Enter Data into Spreadsheet Column:** field_edtf_date_created **AND/OR** field_date_created_text 
 **Type of field:** EDTF and Text (plain)
-**Application:**
+**Application:**  
 * Use _field_edtf_date_created_ for: known numerical dates – 1776-07-04
   *  Must conform to Extended Date/Time Format (EDTF) standards.
   *  See (https://www.loc.gov/standards/datetime/) for more information.
   *  Use the validator (https://digital2.library.unt.edu/edtf/) if unsure your date value conforms to EDTF standard.
-  *  If the date is unknown, leave the field blank.
+  *  If the date is unknown, leave this field blank and use the text field below.
 * Use _field_date_created_text_ for: plain text dates – undated, approximately 1930s
   *  Never write the date as **n.d.** if the date is unknown, only use the term undated.
   *  If only the Day of the Week is available i.e. Wednesday morning, then add to this field.
@@ -467,6 +467,7 @@ Additional information regarding Date:
   *  Use the date that the letter was written or that the card was postmarked
  
 
+
 Type of Date | Format | Example 
 --- | --- | ---
 Year only | YYYY | 1776
@@ -485,6 +486,24 @@ Year and Month uncertain | YYYY-MM~-DD | 1774-05~-20
 Multiple dates | YYYY\|YYYY\|YYYY | 1771\|1775\|1779
 
 ***Please consult EDTF standards for more information on formatting.**
+
+
+### **Date Digitized**
+**Definition:** The date on which the resource was digitized or a subsequent snapshot was taken.   
+**Obligation:** Recommended; not repeatable  
+**Enter Data in Spreadsheet Column:** field_date_digitized  
+**Type of field:** EDTF  
+**Application:**  
+* Must conform to Extended Date/Time Format (EDTF) standards.
+* See (https://www.loc.gov/standards/datetime/) for more information.
+* Use the validator (https://digital2.library.unt.edu/edtf/) if unsure your date value conforms to EDTF standard.
+* If the date is unknown, leave the field blank.
+
+**Examples:**
+* 2021
+* 2021-04
+* 2021-04-01
+
 
 
 
