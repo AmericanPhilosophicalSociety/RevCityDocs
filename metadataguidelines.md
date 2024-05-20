@@ -326,8 +326,71 @@ Digitized other analog | A resource was created by digitizing an intermediate fo
 * Enter the URL of the finding aid or other collection guide. **Enter the URL only.**
 * Do not include entire URL when pulling from a search 
 
-  Correct: https://search.amphilsoc.org/collections/view?docId=ead/Mss.DLAR.Film.706-ead.xml
+  Correct: https://search.amphilsoc.org/collections/view?docId=ead/Mss.DLAR.Film.706-ead.xml  
+  
   Incorrect: https://search.amphilsoc.org/collections/view?docId=ead/Mss.DLAR.Film.706-ead.xml;query=Jasper%20Yeates%20papers;brand=default
+
+### **Reformatting Quality**
+**Definition:** The type of scan done on the original object, e.g. access (JPEG) or preservation (TIFF).  
+**Obligation:** Required; not repeatable  
+**Enter Data in Spreadsheet Column:** field_reformatting_quality  
+**Type of field:** Entity reference  
+**Application:**  
+* Enter the term from the controlled list below that best characterizes or describes the item.
+* The first letter of the term must be capitalized.
+* Scanning done for _Rev City_ should always be preservation, however, there may be exceptions. Please talk to the Project Team if there are questions.
+* Note: Derivatives are created upon ingest.
+
+
+Reformatting Quality term | Definition 
+--- | --- 
+Access | The electronic resource is intended to support current electronic access to the original item (i.e., reference use), but is not sufficient to serve as a preservation copy.
+Preservation | The electronic resource was created via reformatting to help preserve the original item. The capture and storage techniques ensure high-quality, long-term protection." This value will be used most commonly. 
+Replacement | The electronic resource is of high enough quality to serve as a replacement if the original is lost, damaged, or destroyed.
+
+
+### **Holding Institution**  
+**Definition:** Name of the organization contributing the digital item to Portal.  
+**Obligation:** Required; not repeatable  
+**Enter Data into Spreadsheet Column:** field_institution  
+**Application:**
+* Enter the name of the project member institution contributing the digital resource, selecting from the locally-controlled Rev City Member Authorities Table: [Here.]  
+* Institution names should be entered the exact same way in every record.
+* Write out abbreviations or acronyms.
+* ONLY enter the name of the contributing organization. DO NOT use this field to enter donor information or provenance information from your organization. This information can be included in the Note field if necessary. Other information such as mailing address, email address, phone number, and URL to organization's website will be included on the project partners page.
+
+**Examples:**
+* American Philosophical Society  
+* Library Company of Philadelphia  
+* Historical Society of Pennsylvania  
+
+### **Theme**  
+**Definition:** A Rev City locally controlled topical term/phrase that best characterizes or describes the general subject or topic of the item.  
+**Obligation:** Required; repeatable (max of 2 terms)  
+**Enter Data into Spreadsheet Column:** field_theme  
+**Application:**  
+* There is a subjective element to assigning the topic values. Sometimes an item can span more than one of these topical terms. Think about how users will look for and find this item; select the term that you think BEST describes the item.
+* The first letter of each word in the term (except articles) must be capitalized.
+* Separate 2 terms by a pipe “\|” with no spaces between terms in the workbench spreadsheet, i.e. Lived Experience|Economy
+
+Theme term | Description
+--- | --- 
+Declaring Independence | To declare independence took more than shouting about freedom, it meant having the networks, correspondence, and political, federal, and governmental infrastructure to see it through. Learn more about the broad range of documents — the official texts, treaties, proclamations, and announcements — that allowed the colonies to become states. 
+Economy | The fervent cry for “no taxation without representation” confirms the way in which economic concerns were tied up with desires for independence. Waging a war required a complex structure to support it — securing goods, paying soldiers, and even administering taxes. 
+Lived Experience | Philadelphians had a wide variety of lived experiences during the Revolution depending on their gender, race, age, class, religion, and political affiliation. Learn more about life in the city as the war unfolded through the eyes of its diverse inhabitants.
+Media | Residents of Philadelphia lived in a complex media landscape. They learned about current events through print, manuscript, and word of mouth. Explore the diverse array of formats and learn about the pathways by which different types of information spread during wartime.
+Mobilized Populace | Political movements both for and against separation from Great Britain sought to gain support through a variety of means. Learn more about the oaths, petitions, uses of extralegal force, and other methods of persuasion utilized by Patriots and Loyalists alike. 
+Political Philosophy | The diverse ideological origins of the American Revolution are documented in the correspondence and diaries written by the women and men of the city and in the broadsides pasted on the walls of the city’s built environment.
+Politics and Causes of Revolution | As the capital of the colony of Pennsylvania and home to the Continental Congress, Philadelphia was a center for revolutionary politics throughout the 1770s and 1780s. Read more about politics both in and out of doors through the eyes of the women and men who experienced it.
+Slavery | Slavery was a central facet of life in the thriving port of Philadelphia. Learn more about the experiences of bondspeople, and those who enslaved them, during the Revolution through receipts of sale, fugitive notices, advertisements, and other primary sources.
+Waging the War | The Revolutionary War was, after all, a violent confrontation. Learn more about the details of military engagements , the execution of campaigns, and the spread of news from the battlefront to those back home.
+
+
+
+
+ ## **Recommended Metadata**
+
+ 
 
   
 
