@@ -571,5 +571,50 @@ Additional information regarding Genre:
 
 
 
+### **People**
+**Definition:** The name of a linked agent (e.g. person, organization, or event) associated in some way with the resource.  
+**Obligation:** Recommended; repeatable  
+**Enter Data in Spreadsheet Column:** field_linked_agent  
+**Type of field:** Typed Relation  
+**Application:**  
+* Format as: relators:[relationship type abbreviation]:[type of name]:[authorized or local name]
+* A ‘Relationship Type’ must be specified. See list of Relationship Types available by default in Appendix A: Default Relationship Types.
+* A 'type of name' must be specified: Either person,  corporate_body, or family must be specified
+  *  If the linked agent is an individual of the human species, use person
+  *  If the linked agent is an organization or group of people identified by a name and that acts, or may act, as a unit, or an institutional position held by a person, use corporate_body
+  *  If the creator is two or more people related through marriage, birth, adoption, or other legal manner, or who present themselves as a family, use family
+* Use authorized forms of names from LCNAF or VIAF when they exist.
+  *  LC Name Authority File: http://id.loc.gov/authorities/names.html
+  *  Virtual International Authority File: https://viaf.org/viaf
+* Where no authorized entry exists in LCNAF or VIAF, please construct names according to the standards below:
+  *  Enter personal names in inverted form: Last Name, First Name, Middle Name or initial (include birth and death dates if known). 
+  *  Do not use honorifics, titles, or nicknames unless it is necessary to disambiguate (e.g., the first name of the person is unknown).
+  *  Use initials if the full names are not known
+  *  Use spaces between initials (e.g. Rowling, J. K.)
+  *  Separate hyphenated first names with a hyphen instead of a space if only initials are known
+  *  Put additional middle names after the first name
+  *  Consider both parts of a hyphenated name the 'last name'
+  *  Consider multiple parts (von, de la, etc.) as part of the last name
+  *  Include suffixes that are a part of the name (Jr., Sr., etc.) at the end of the name after a second comma (e.g. Arthur, William A., Jr., 1834-1915)
+  *  Use a question mark (?) to indicate a probable date (e.g. Dickerson, Martina, 1829?-)
+  *  Use “approximately” for less certain dates (e.g. Barr, Robert, approximately 1725-1808)
+  *  Alternate forms of names (such as “Buddy” Jones ; Reverend Murrell ; Dr. Reed) may be used in the Description field but not as the authoritative version.
+
+Additional information regarding People:  
+* Additional names are strongly recommended if a creator, contributor, or other named agent is known. If no names associated with the resource can be determined, leave the field blank; do not enter "Unknown" or any variant in a _person_ field. Use the Note field/column instead to denote unknown responsibility for the resource.
+* If the creator and the publisher of the original item are the same, repeat the creator's name in the Publisher field.
+* DO NOT use this field to enter information on who donated the original object or information regarding the item’s provenance.
+
+Examples:  
+* relators:cre:person:Hollingsworth, H. (Henry), 1737-1803
+* relators:aut:person:Stockton, Annis Boudinot, 1736-1801\|relators:ill:person:Rush, Julia Stockton
+* relators:rcp:person:De Grasse, Isaiah G., Reverend
+* relators:pbl:corporate_body:Joshua Fisher & Sons (Philadelphia, Pa.)
+* relators:sgn:corporate_body:Society of Friends
+* relators:col:family:Biddle family
+
+
+
+
 
 
