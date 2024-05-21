@@ -663,7 +663,10 @@ Examples:
 
  Drupal term | Format | Example 
  --- | --- | ---
+ field_subject | Only the LCSH authorized term or other controlled vocabulary term is necessary | Marriage\|Quakers
  field_subject_name | Must include the type of name (person:, corporate_body:, or family:) | person:Faro,Jarvis\|corporate_body:Society of Friends\|family:Sellers family 
+ field_geopgraphic_subject | Only the LCNAF authorized term or locally created term is necessary | Philadelphia (Pa.)\|Schuylkill River (Pa.)\|Passy (Haute-Savoie, France)
+ 
  
 
  
