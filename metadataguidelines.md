@@ -537,4 +537,32 @@ Song recording | 0:03:55
 * Separate multiple entries with a semicolon and no spaces in between entries
 
 
+Additional information regarding Genre:  
+* You may also want to include a keyword or phrase in the _abstract_ or _title_ fields that gives the user additional context for the genre term, especially if there is not a term found in a controlled vocabulary/resource. For example, for Correspondence, you may use the term “letters” in the _abstract_.
+
+**Examples:**
+* Correspondence
+* Letter books\|Personal Correspondence|Recipes
+* Diaries\|Bookkeeping records
+* Minutes\|Excerpts
+
+
+### **Language**
+**Definition:** A designation of the language in which the content of a resource is expressed.  
+**Obligation:** Recommended; repeatable  
+**Enter Data into Spreadsheet Column:** field_language  
+**Type of field:** Entity reference  
+**Application:**  
+* Format as: Language term (language abbreviation)  
+* Assign a three-letter language code from ISO 639-2 that matches language term	
+  *  B for bibliographic
+  *  https://www.loc.gov/standards/iso639-2/php/code_list.php
+* For Indigenous languages use: https://indigenousguide.amphilsoc.org/language_browse 
+* Include all relevant languages (do not include languages that are merely referenced or only appear as single words in text of another language)
+* If there is more than one language:
+  *  separate by pipe with no spaces between terms
+  *  Be consistent with both Language text and Language code in terms of order of terms
+* If there are special circumstances or additional information about the language uses of the item, include it in the Note field
+
+
 
