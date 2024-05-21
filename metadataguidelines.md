@@ -437,8 +437,8 @@ The Sol Feinstone Collection on the American Revolution, ca. 1760s-1850s finding
 ### **Date Created**
 **Definition:** The date of creation of the original resource.  
 **Obligation:** Highly recommended; repeatable  
-**Enter Data into Spreadsheet Column:** field_edtf_date_created **AND/OR** field_date_created_text 
-**Type of field:** EDTF and Text (plain)
+**Enter Data into Spreadsheet Column:** field_edtf_date_created **AND/OR** field_date_created_text  
+**Type of field:** EDTF and Text (plain)  
 **Application:**  
 * Use _field_edtf_date_created_ for: known numerical dates – 1776-07-04
   *  Must conform to Extended Date/Time Format (EDTF) standards.
@@ -523,7 +523,18 @@ Oral history interview | 1:04:24
 Song recording | 0:03:55 
 
 
-
+### **Genre**
+**Definition:** A term or phrase that designate a category characterizing a particular style, form, or content, such as artistic, musical, literary composition, etc.; the type of object it is.  
+**Obligation:** Recommended; repeatable  
+**Enter Data into Spreadsheet Column:** field_genre  
+**Type of field:** Entity reference  
+**Application:**  
+* Enter a term for the genre of the resource that characterizes its content. The genre field should be used to characterize the content of the resource rather than the resource itself or its physical characteristics.
+* Choose applicable genre terms from the Getty Art and Architecture Thesaurus (AAT) (particularly AAT terms denoted as "genre"), or from the MARC Genre Term List (MARCGT).
+  *  AAT: http://www.getty.edu/research/tools/vocabularies/aat/ 
+  *  MARCGT: https://www.loc.gov/standards/valuelist/marcgt.html 
+* Be consistent and use Plural terms with the first letter capitalized.
+* Separate multiple entries with a semicolon and no spaces in between entries
 
 
 
