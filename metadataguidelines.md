@@ -637,4 +637,35 @@ Examples:
 * [Philadelphia] : Printed by F. Bailey, [1783]
 
 
+### **Subjects**
+**Definition:** A formal term or phrase representing the primary topic(s) (people, organizations, events or themes depicted or described) on which an item is focused.  
+**Obligation:** Recommended; repeatable  
+**Enter Data in Spreadsheet Column:**   
+
+   Topic Subject = field_subject   
+   Subjects (Name) = field_subjects_name  
+   Location = field_geographic_subject  
+   Temporal Subject = field_temporal_subject  
+
+**Type of field:** Entity reference  
+**Application:**  
+* For all subject fields:
+  *  If there is more than one term or phrase in the subject field, separate by pipe with no spaces between terms, i.e. Female friendship\|Social networks--18th century\|War and families 
+* Use authorized terms from LCSH, LCNAF, or another thesaurus whenever possible.
+  *  LC Subject Headings: http://id.loc.gov/authorities/subjects.html (Use for topical subjects)
+  *  LC Name Authority File: http://id.loc.gov/authorities/names.html (Use for name and location subjects)
+  *  LC Authorites (all): https://authorities.loc.gov/webvoy.htm 
+  *  FAST: https://fast.oclc.org/searchfast/
+  *  Homosaurus: https://homosaurus.org/  
+  *  CNAIR controlled vocabulary : https://indigenousguide.amphilsoc.org/culture_browse/all
+ 
+ Specific formatting:  
+
+ Drupal term | Format | Example 
+ --- | --- | ---
+ field_subject_name | Must include the type of name (person:, corporate_body:, or family:) | person:Faro,Jarvis\|corporate_body:Society of Friends\|family:Sellers family 
+ 
+
+ 
+
 
