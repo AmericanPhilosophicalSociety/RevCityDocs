@@ -564,5 +564,12 @@ Additional information regarding Genre:
   *  Be consistent with both Language text and Language code in terms of order of terms
 * If there are special circumstances or additional information about the language uses of the item, include it in the Note field
 
+**Examples:**  
+* English (eng)
+* Spanish (spa)
+* English (eng)\|Chontal Maya (chf)\||German (ger)
+
+
+
 
 
