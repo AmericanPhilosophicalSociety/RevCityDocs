@@ -21,7 +21,7 @@ In general, follow diplomatic transcription conventions. To the greatest extent 
 
 ## Crossed-out text
 
-Treat crossed-out text as [illegible]().
+Treat crossed-out text as [illegible]({{ site.baseurl }}/RevCityDocs/transcription-guidelines/#illegibles).
 
 For extended passages of crossed-out text where the text is still largely legible, please transcribe the text normally.
 
