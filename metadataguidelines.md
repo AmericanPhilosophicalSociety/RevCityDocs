@@ -542,7 +542,7 @@ Additional information regarding Genre:
 
 **Examples:**
 * Correspondence
-* Letter books\|Personal Correspondence|Recipes
+* Letter books\|Personal Correspondence\|Recipes
 * Diaries\|Bookkeeping records
 * Minutes\|Excerpts
 
@@ -567,7 +567,7 @@ Additional information regarding Genre:
 **Examples:**  
 * English (eng)
 * Spanish (spa)
-* English (eng)\|Chontal Maya (chf)\||German (ger)
+* English (eng)\|Chontal Maya (chf)\|German (ger)
 
 
 
@@ -614,7 +614,27 @@ Examples:
 * relators:col:family:Biddle family
 
 
+### **Place Published**
+**Definition:** The name of the entity that published, printed, distributed, released, issued, or produced the resource.  
+**Obligation:** Recommended if applicable; repeatable  
+**Enter Data into Spreadsheet Column:** field_place_publisher  
+**Type of field:** Entity reference  
+**Application:  
+* If the original item was published and the publisher and/pr place is known, enter data in this field.
+* If no publishing statement is present on the resource or its documentation, leave the _place published_ field blank.
+* Use authorized forms of names from LCNAF (http://id.loc.gov/authorities/names.html) when they exist. 
+* If there is no entry in the LCNAF, enter the publisher’s name as printed on the item:
+  * Format: [Publisher location] : [Publisher name], [Date of publication]
+  * Do not invert names of individuals (for self-publishing)
+  *  Do not invert personal names that are parts of organizational names
+  *  Use the names as they appear in the item for non-government or single-level bodies
+  *  Write out names instead of using acronyms
 
+
+**Examples:**  
+* Philadelphia : Printed by John Dunlap, 1777
+* Baltimore : Printed by Mary Katharine Goddard, 1777
+* [Philadelphia] : Printed by F. Bailey, [1783]
 
 
 
