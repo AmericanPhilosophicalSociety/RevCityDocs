@@ -658,6 +658,16 @@ Examples:
   *  FAST: https://fast.oclc.org/searchfast/
   *  Homosaurus: https://homosaurus.org/  
   *  CNAIR controlled vocabulary : https://indigenousguide.amphilsoc.org/culture_browse/all
+ *  For Locations:
+  *  Return and Send addresses (mostly cities) should be added to the _field_geographic_subject_. Locations where people are writing from and sending to are important metadata.
+ *  For Name subjects:
+  *  Enter any names associated with the resource’s content.
+  *  This is distinct from names associated with the creation of the resource; Use when names are described or referenced in the item.
+  *  If a person has an alternate name or alias, include their real name under Name subject and aliases as keywords in the Abstract field.
+* For hierarchical subjects (mostly topical subjects):
+  *  Use 2 hyphens with no spaces on either side between subdivisions for full LCSH (e.g. Indians of North America--Northwest, Pacific--Structures)
+ 
+  
  
  Specific formatting:  
 
@@ -666,6 +676,9 @@ Examples:
  field_subject | Only the LCSH authorized term or other controlled vocabulary term is necessary | Marriage\|Quakers
  field_subject_name | Must include the type of name (person:, corporate_body:, or family:) | person:Faro,Jarvis\|corporate_body:Society of Friends\|family:Sellers family 
  field_geopgraphic_subject | Only the LCNAF authorized term or locally created term is necessary | Philadelphia (Pa.)\|Schuylkill River (Pa.)\|Passy (Haute-Savoie, France)
+
+
+ 
  
  
 
