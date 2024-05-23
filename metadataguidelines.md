@@ -658,29 +658,37 @@ Examples:
   *  FAST: https://fast.oclc.org/searchfast/
   *  Homosaurus: https://homosaurus.org/  
   *  CNAIR controlled vocabulary : https://indigenousguide.amphilsoc.org/culture_browse/all
- *  For Locations:
+* For Locations:  
   *  Return and Send addresses (mostly cities) should be added to the _field_geographic_subject_. Locations where people are writing from and sending to are important metadata.
- *  For Name subjects:
+* For Name subjects:
   *  Enter any names associated with the resource’s content.
   *  This is distinct from names associated with the creation of the resource; Use when names are described or referenced in the item.
   *  If a person has an alternate name or alias, include their real name under Name subject and aliases as keywords in the Abstract field.
 * For hierarchical subjects (mostly topical subjects):
   *  Use 2 hyphens with no spaces on either side between subdivisions for full LCSH (e.g. Indians of North America--Northwest, Pacific--Structures)
- 
   
- 
- Specific formatting:  
+Specific formatting:  
 
- Drupal term | Format | Example 
- --- | --- | ---
- field_subject | Only the LCSH authorized term or other controlled vocabulary term is necessary | Marriage\|Quakers
- field_subject_name | Must include the type of name (person:, corporate_body:, or family:) | person:Faro,Jarvis\|corporate_body:Society of Friends\|family:Sellers family 
- field_geopgraphic_subject | Only the LCNAF authorized term or locally created term is necessary | Philadelphia (Pa.)\|Schuylkill River (Pa.)\|Passy (Haute-Savoie, France)
+Drupal term | Format | Example 
+--- | --- | ---
+field_subject | Only the LCSH authorized term or other controlled vocabulary term is necessary | Marriage\|Quakers
+field_subject_name | Must include the type of name (person:, corporate_body:, or family:) | person:Faro,Jarvis\|corporate_body:Society of Friends\|family:Sellers family 
+field_geographic_subject | Only the LCNAF authorized term or locally created term is necessary | Philadelphia (Pa.)\|Schuylkill River (Pa.)\|Passy (Haute-Savoie, France)
 
 
+Additional information regarding Subjects:  
+* Information in the subject fields should describe what the content is ‘about’
+  *  Subjects/keywords answer questions like: who, what, where, and when
+* If there is a term/keyword not found in a controlled vocabulary/resource that will aid users in finding the item, you may include it in the _abstract_ or _title_ field.
+* There is a subjective element to assigning the topical subjects. Think about how users will look for and find this item; select the term that you think BEST describes the item.
+* Choose as many terms as necessary to capture subject content:
+  *  1-2 subjects are recommended, but number varies depending on content.
+  *  Avoid terms too general to describe a particular item.
+  *  Only include geographic subjects when the particular place is important to the subject content.
+* It is not necessary to repeat terms from controlled vocabularies as keywords
+
  
- 
- 
+
 
  
 
