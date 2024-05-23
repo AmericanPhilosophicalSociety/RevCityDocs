@@ -106,6 +106,8 @@ Please consult the [official documentation](https://escriptorium.readthedocs.io/
 - After the transcription is completed, go through the document line by line and correct any errors.
 - In the project log, notate that the document was automatically transcribed and list which model you used.
 
+**Note**: For long documents, greatest accuracy can be achieved through a mixed method: transcribe a representative sample of the document, then fine-tune the generalized model on that sample. Please ask your manager if you would like to experiment with this.
+
 #### If transcribing manually
 {: .no_toc }
 
