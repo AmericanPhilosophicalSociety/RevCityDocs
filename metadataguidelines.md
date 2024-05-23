@@ -706,7 +706,7 @@ Example:
    title: 
    subtitle:
 
-## **Note**
+### **Note**
 **Definition:** General textual information relating to a resource.  
 **Obligation:** Optional; repeatable  
 **Enter Data into Spreadsheet Column:** field_note  
