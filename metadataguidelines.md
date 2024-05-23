@@ -689,6 +689,24 @@ Additional information regarding Subjects:
 
  
 
+## **Other Metadata**
+
+### **Subtitle**
+**Definition:** A word, phrase, character, or group of characters that contains the remainder of the title information after the title proper.  
+**Obligation:** Optional; repeatable  
+**Enter Data into Spreadsheet Column:** field_subtitle  
+**Type of field:** Text (plain)  
+**Application:**  
+* A main title is required before subtitle(s) may be used.
+* Enter the formal subtitle exactly as it appears on the item.
+* Do not end a subtitle with a period. Do not enter a colon after the title or before the subtitle.
+
+Example:
+
+   title: 
+   subtitle:
+
+
 
  
 
