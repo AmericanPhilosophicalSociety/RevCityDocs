@@ -706,6 +706,25 @@ Example:
    title: 
    subtitle:
 
+## **Note**
+**Definition:** General textual information relating to a resource.  
+**Obligation:** Optional; repeatable  
+**Enter Data into Spreadsheet Column:** field_note  
+**Type of field:** Text (formatted, long)  
+**Application:**  
+* A less formal description of the item, written using free text.
+* Enter notes pertaining to the content of the resource that does not fit in a more specific field.
+  *  Such notes should be as concise as possible!
+* This field can also be used to note contents, missing pages, or condition notes for the physical item.
+* You can use a note to explain discrepancies in dates, i.e. if there is a photograph on a postcard that was taken earlier than the postcard was printed, etc.
+
+**Examples:**  
+* "Extract from the Minutes." Signed by T[imothy] Matlack, secretary.
+* A "correct copy of the record in the office of the Board of Revision of Taxes"; copied in Philadelphia, July 20, 1868
+* Leather bound with blank pages.
+* Blank pages were not scanned.
+* (example of existing metadata made by an institution) Probably written by Esther Reed who assumed leadership of the women’s relief effort in Philadelphia. See Reed, William B. The life of Esther De Berdt, afterwards Esther Reed, of Pennsylvania (Philadelphia, 1853), p. 313-324.;Followed by, on p. [2]: Ideas, relative to the manner of forwarding to the American soldiers, the presents of the American women.;Imprint from colophon. The American Antiquarian Society copy was found bound after the June 10, 1780, issue of the Pennsylvania packet, printed at Philadelphia by John Dunlap. Articles related to the women’s efforts were printed in the Pennsylvania packet on June 13, 17, 27, July 8, and Nov. 4, 1780.
+
 
 
  
