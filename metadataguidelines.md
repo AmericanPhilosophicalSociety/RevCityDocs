@@ -704,7 +704,7 @@ Additional information regarding Subjects:
 Example:
 
    title: 
-   subtitle:
+   subtitle:  
 
 ### **Note**
 **Definition:** General textual information relating to a resource.  
@@ -726,6 +726,20 @@ Example:
 * (example of existing metadata made by an institution) Probably written by Esther Reed who assumed leadership of the women’s relief effort in Philadelphia. See Reed, William B. The life of Esther De Berdt, afterwards Esther Reed, of Pennsylvania (Philadelphia, 1853), p. 313-324.;Followed by, on p. [2]: Ideas, relative to the manner of forwarding to the American soldiers, the presents of the American women.;Imprint from colophon. The American Antiquarian Society copy was found bound after the June 10, 1780, issue of the Pennsylvania packet, printed at Philadelphia by John Dunlap. Articles related to the women’s efforts were printed in the Pennsylvania packet on June 13, 17, 27, July 8, and Nov. 4, 1780.
 
 
+### **Administrative Notes**
+**Definition:** Administrative textual information relating to a resource.  
+**Obligation:** Optional; not repeatable  
+**Enter Data into Spreadsheet Column:** field_administrative_notes  
+**Type of field:** Text (plain, long)  
+**Application:**   
+* You may enter notes from the finding aid or guide, digitization notes (i.e. scanning related comments), or other notes not necessary for public knowledge.
+* Internal use only; does not appear in Public User Interface
+
+**Examples:**
+* Digitized by: Bocanegra, Sabrina
+* Digitized by: American Philosophical Society
+* Not only copy, see #93 in collection
+* Has restrictions, see ASpace record
 
  
 
