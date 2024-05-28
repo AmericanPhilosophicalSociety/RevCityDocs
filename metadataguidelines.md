@@ -88,11 +88,21 @@ The Bulk Rename Utility application can be used to apply bulk changes to both fo
 
 
 ### **Total Scans**
-**Definition:**  
+**Definition:** Number of digital files for a given object or resource.  
 **Obligation:** _Required for Book objects only!_; not repeatable  
 **Enter Data in Spreadsheet Column:** total_scans  
 **Type of field:** Integer  
 **Application:**  
+* Enter the number of digital files in a folder for each book object to be ingested.
+* This number must match the amount of files in your object’s folder in order for workbench to run the ingest and upload the files.
+
+**Example:**
+
+Object folder | total_scans field
+--- | ---
+7 tif files | 7
+158 tif files | 158
+40 jpg files | 40
 
 
 ### **Resource Type**
