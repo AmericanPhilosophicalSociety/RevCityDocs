@@ -703,7 +703,7 @@ Additional information regarding Subjects:
 
 Example:
 
-   title: 
+   title:  
    subtitle:  
 
 ### **Note**
