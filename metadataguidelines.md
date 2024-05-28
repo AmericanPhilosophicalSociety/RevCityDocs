@@ -257,7 +257,7 @@ Example:
 **Obligation:** Required, not repeatable  
 **Enter Data in Spreadsheet Column:** parent_id  
 **Type of field:** Number (integer)
-**Application:**
+**Application:**  
 * For new collections, you must enter the proper number from the _id_ field into the _parent_id_ column. 
 * If the collection into which you are ingesting the object already exists in the Portal, you can use field_member_of to identify the parent using its node ID. 
   *  In that case, the Book Parent would not have anything in the _parent_id_ column, but would include the collection node ID in the _field_member_of_ column.
@@ -297,7 +297,7 @@ Remote Media | Video or audio files stored externally
 **Definition:** Name of the organization contributing the digital item to Portal.  
 **Obligation:** Required; not repeatable  
 **Enter Data into Spreadsheet Column:** field_institution  
-**Application:**
+**Application:**  
 * Enter the name of the project member institution contributing the digital resource, selecting from the locally-controlled Rev City Member Authorities Table: [Here.]  
 * Institution names should be entered the exact same way in every record.
 * Write out abbreviations or acronyms.
@@ -336,7 +336,7 @@ Waging the War | The Revolutionary War was, after all, a violent confrontation. 
 **Obligation:** Highly recommended; repeatable  
 **Enter Data into Spreadsheet Column:** field_description_long  
 **Type of field:** Text (formatted, long)
-**Application:**
+**Application:**  
 * This field is used for a free-text account of the intellectual content of the original item. For this reason, the content in the _abstract_ field can be a little longer than in other fields. It can be taken from the original item or created.
 * Captions or inscriptions that are not used in the Title field may be included in the _abstract_ field.
 * The _abstract_ should be written in complete sentences and the field should read as a single block of text. The block of text should end with a period.
@@ -621,7 +621,7 @@ Examples:
 **Obligation:** Recommended if applicable; repeatable  
 **Enter Data into Spreadsheet Column:** field_place_publisher  
 **Type of field:** Entity reference  
-**Application:  
+**Application:**  
 * If the original item was published and the publisher and/pr place is known, enter data in this field.
 * If no publishing statement is present on the resource or its documentation, leave the _place published_ field blank.
 * Use authorized forms of names from LCNAF (http://id.loc.gov/authorities/names.html) when they exist. 
@@ -725,6 +725,17 @@ Additional information regarding Subjects:
 * Digitized by: American Philosophical Society
 * Not only copy, see #93 in collection
 * Has restrictions, see ASpace record
+
+### **Date Modified**  
+**Definition:** The date in which a resource is modified or changed.  
+**Obligation:** Optional; not repeatable  
+**Enter Data into Spreadsheet Column:** field_date_modified  
+**Type of field:** EDTF  
+**Application:**  
+* Enter the date in EDTF format in which the object was modified.
+
+**Examples:** See Date Created for information on formatting.
+
 
 
 ### **Note**
