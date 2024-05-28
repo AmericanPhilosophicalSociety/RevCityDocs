@@ -559,7 +559,7 @@ Additional information regarding Genre:
 * Julia Rush letters, 1776-1809
 * Spokane primer, 1976
 
-### **Parents Finding Aid URL**
+### **Parent Collection URL**
 **Definition:** Internet address of the finding aid, collection description, or other guide for understanding and accessing the repository collection to which the resource belongs.  
 **Obligation:** Required if applicable; not repeatable  
 **Enter Data in Spreadsheet Column:** field_collection_url  
