@@ -293,88 +293,6 @@ Open Seadragon | Large Image, Page
 PDFjs | PDF
 Remote Media | Video or audio files stored externally
 
-
-### **Digital Origin**
-**Definition:** The method by which a resource achieved digital form.  
-**Obligation:** Required; not repeatable  
-**Enter Data in Spreadsheet Column:** field_digital_origin  
-**Type of field:** Entity reference  
-**Application:**   
-* Enter the term from the controlled list below that best characterizes or describes the item.
-* Most content will be "Reformatted digital" indicating that it is a digital facsimile of an original physical object.
-* Use "digitized other analog" only when the digital resource was created by digitizing an intermediate form other than microform, such as a photocopy, of the original.
-* The first letter of the term must be capitalized.
-
-Digital Origin Term | Definition 
---- | ---
-Reformatted digital | A resource was created by digitization of the original which was in a non-digital form (except original microforms). This value will be used most commonly.
-Born digital | A resource was created in and is intended to remain in digital form.
-Digitized microfilm | A resource was created by digitizing a microform [microfilm/microfiche].
-Digitized other analog | A resource was created by digitizing an intermediate form of the original resource (but not microform) such as photocopy, transparency, slide, 2nd generation analog tapes, etc. [might include carbon copies]
-
-
-### **Parent Collection Call Number**
-**Definition:** Local call number or accession number for the original source object.  
-**Obligation:** Required if applicable; not repeatable  
-**Enter Data in Spreadsheet Column:** field_parent_collection_call_num  
-**Type of field:** Text (plain)  
-**Application:**  
-* Enter the item’s specific/named collection number identifier located within the contributing organization’s larger collection.
-* Do not leave spaces between periods.
-
-**Examples:**
-* Mss.B.F327
-* Mss.Ms.Coll.73
-* Mss.497.3.Sp5
-* Amb.1752
-* Coll740
-
-### **Parent Collection Title**
-**Definition:** The name of a collection of which the item being described is a part.  
-**Obligation:** Required; not repeatable  
-**Enter Data in Spreadsheet Column:** field_collection2  
-**Type of field:**  Entity reference  
-**Application:**  
-* Enter the item’s specific/named collection located within the contributing organization’s larger collection.
-* Enter the title exactly as it appears in the accession record or finding aid
-
-**Examples:**
-* The Sol Feinstone collection of the American Revolution, ca. 1760s-1850s
-* Julia Rush letters, 1776-1809
-* Spokane primer, 1976
-
-### **Parents Finding Aid URL**
-**Definition:** Internet address of the finding aid, collection description, or other guide for understanding and accessing the repository collection to which the resource belongs.  
-**Obligation:** Required if applicable; not repeatable  
-**Enter Data in Spreadsheet Column:** field_collection_url  
-**Type of field:** Link  
-**Application:**  
-* Enter the URL of the finding aid or other collection guide. **Enter the URL only.**
-* Do not include entire URL when pulling from a search 
-
-  Correct: https://search.amphilsoc.org/collections/view?docId=ead/Mss.DLAR.Film.706-ead.xml  
-  
-  Incorrect: https://search.amphilsoc.org/collections/view?docId=ead/Mss.DLAR.Film.706-ead.xml;query=Jasper%20Yeates%20papers;brand=default
-
-### **Reformatting Quality**
-**Definition:** The type of scan done on the original object, e.g. access (JPEG) or preservation (TIFF).  
-**Obligation:** Required; not repeatable  
-**Enter Data in Spreadsheet Column:** field_reformatting_quality  
-**Type of field:** Entity reference  
-**Application:**  
-* Enter the term from the controlled list below that best characterizes or describes the item.
-* The first letter of the term must be capitalized.
-* Scanning done for _Rev City_ should always be preservation, however, there may be exceptions. Please talk to the Project Team if there are questions.
-* Note: Derivatives are created upon ingest.
-
-
-Reformatting Quality term | Definition 
---- | --- 
-Access | The electronic resource is intended to support current electronic access to the original item (i.e., reference use), but is not sufficient to serve as a preservation copy.
-Preservation | The electronic resource was created via reformatting to help preserve the original item. The capture and storage techniques ensure high-quality, long-term protection." This value will be used most commonly. 
-Replacement | The electronic resource is of high enough quality to serve as a replacement if the original is lost, damaged, or destroyed.
-
-
 ### **Holding Institution**  
 **Definition:** Name of the organization contributing the digital item to Portal.  
 **Obligation:** Required; not repeatable  
@@ -410,9 +328,6 @@ Political Philosophy | The diverse ideological origins of the American Revolutio
 Politics and Causes of Revolution | As the capital of the colony of Pennsylvania and home to the Continental Congress, Philadelphia was a center for revolutionary politics throughout the 1770s and 1780s. Read more about politics both in and out of doors through the eyes of the women and men who experienced it.
 Slavery | Slavery was a central facet of life in the thriving port of Philadelphia. Learn more about the experiences of bondspeople, and those who enslaved them, during the Revolution through receipts of sale, fugitive notices, advertisements, and other primary sources.
 Waging the War | The Revolutionary War was, after all, a violent confrontation. Learn more about the details of military engagements , the execution of campaigns, and the spread of news from the battlefront to those back home.
-
-
-
 
 ## **Recommended Metadata**
 
@@ -530,6 +445,24 @@ Multiple dates | YYYY\|YYYY\|YYYY | 1771\|1775\|1779
 * 2021-04
 * 2021-04-01
 
+### **Digital Origin**
+**Definition:** The method by which a resource achieved digital form.  
+**Obligation:** Required; not repeatable  
+**Enter Data in Spreadsheet Column:** field_digital_origin  
+**Type of field:** Entity reference  
+**Application:**   
+* Enter the term from the controlled list below that best characterizes or describes the item.
+* Most content will be "Reformatted digital" indicating that it is a digital facsimile of an original physical object.
+* Use "digitized other analog" only when the digital resource was created by digitizing an intermediate form other than microform, such as a photocopy, of the original.
+* The first letter of the term must be capitalized.
+
+Digital Origin Term | Definition 
+--- | ---
+Reformatted digital | A resource was created by digitization of the original which was in a non-digital form (except original microforms). This value will be used most commonly.
+Born digital | A resource was created in and is intended to remain in digital form.
+Digitized microfilm | A resource was created by digitizing a microform [microfilm/microfiche].
+Digitized other analog | A resource was created by digitizing an intermediate form of the original resource (but not microform) such as photocopy, transparency, slide, 2nd generation analog tapes, etc. [might include carbon copies]
+
 
 ### **Extent**
 **Definition:** A statement of the number of the units (pages), file size, or duration of the resource.  
@@ -595,6 +528,49 @@ Additional information regarding Genre:
 * Spanish (spa)
 * English (eng)\|Chontal Maya (chf)\|German (ger)
 
+
+### **Parent Collection Call Number**
+**Definition:** Local call number or accession number for the original source object.  
+**Obligation:** Required if applicable; not repeatable  
+**Enter Data in Spreadsheet Column:** field_parent_collection_call_num  
+**Type of field:** Text (plain)  
+**Application:**  
+* Enter the item’s specific/named collection number identifier located within the contributing organization’s larger collection.
+* Do not leave spaces between periods.
+
+**Examples:**
+* Mss.B.F327
+* Mss.Ms.Coll.73
+* Mss.497.3.Sp5
+* Amb.1752
+* Coll740
+
+### **Parent Collection Title**
+**Definition:** The name of a collection of which the item being described is a part.  
+**Obligation:** Required; not repeatable  
+**Enter Data in Spreadsheet Column:** field_collection2  
+**Type of field:**  Entity reference  
+**Application:**  
+* Enter the item’s specific/named collection located within the contributing organization’s larger collection.
+* Enter the title exactly as it appears in the accession record or finding aid
+
+**Examples:**
+* The Sol Feinstone collection of the American Revolution, ca. 1760s-1850s
+* Julia Rush letters, 1776-1809
+* Spokane primer, 1976
+
+### **Parents Finding Aid URL**
+**Definition:** Internet address of the finding aid, collection description, or other guide for understanding and accessing the repository collection to which the resource belongs.  
+**Obligation:** Required if applicable; not repeatable  
+**Enter Data in Spreadsheet Column:** field_collection_url  
+**Type of field:** Link  
+**Application:**  
+* Enter the URL of the finding aid or other collection guide. **Enter the URL only.**
+* Do not include entire URL when pulling from a search 
+
+  Correct: https://search.amphilsoc.org/collections/view?docId=ead/Mss.DLAR.Film.706-ead.xml  
+  
+  Incorrect: https://search.amphilsoc.org/collections/view?docId=ead/Mss.DLAR.Film.706-ead.xml;query=Jasper%20Yeates%20papers;brand=default
 
 
 ### **People**
@@ -662,6 +638,24 @@ Examples:
 * Baltimore : Printed by Mary Katharine Goddard, 1777
 * [Philadelphia] : Printed by F. Bailey, [1783]
 
+### **Reformatting Quality**
+**Definition:** The type of scan done on the original object, e.g. access (JPEG) or preservation (TIFF).  
+**Obligation:** Required; not repeatable  
+**Enter Data in Spreadsheet Column:** field_reformatting_quality  
+**Type of field:** Entity reference  
+**Application:**  
+* Enter the term from the controlled list below that best characterizes or describes the item.
+* The first letter of the term must be capitalized.
+* Scanning done for _Rev City_ should always be preservation, however, there may be exceptions. Please talk to the Project Team if there are questions.
+* Note: Derivatives are created upon ingest.
+
+
+Reformatting Quality term | Definition 
+--- | --- 
+Access | The electronic resource is intended to support current electronic access to the original item (i.e., reference use), but is not sufficient to serve as a preservation copy.
+Preservation | The electronic resource was created via reformatting to help preserve the original item. The capture and storage techniques ensure high-quality, long-term protection." This value will be used most commonly. 
+Replacement | The electronic resource is of high enough quality to serve as a replacement if the original is lost, damaged, or destroyed.
+
 
 ### **Subjects**
 **Definition:** A formal term or phrase representing the primary topic(s) (people, organizations, events or themes depicted or described) on which an item is focused.  
@@ -717,20 +711,21 @@ Additional information regarding Subjects:
 
 ## **Other Metadata**
 
-### **Subtitle**
-**Definition:** A word, phrase, character, or group of characters that contains the remainder of the title information after the title proper.  
-**Obligation:** Optional; repeatable  
-**Enter Data into Spreadsheet Column:** field_subtitle  
-**Type of field:** Text (plain)  
-**Application:**  
-* A main title is required before subtitle(s) may be used.
-* Enter the formal subtitle exactly as it appears on the item.
-* Do not end a subtitle with a period. Do not enter a colon after the title or before the subtitle.
+### **Administrative Notes**
+**Definition:** Administrative textual information relating to a resource.  
+**Obligation:** Optional; not repeatable  
+**Enter Data into Spreadsheet Column:** field_administrative_notes  
+**Type of field:** Text (plain, long)  
+**Application:**   
+* You may enter notes from the finding aid or guide, digitization notes (i.e. scanning related comments), or other notes not necessary for public knowledge.
+* Internal use only; does not appear in Public User Interface
 
-Example:
+**Examples:**
+* Digitized by: Bocanegra, Sabrina
+* Digitized by: American Philosophical Society
+* Not only copy, see #93 in collection
+* Has restrictions, see ASpace record
 
-   title:  
-   subtitle:  
 
 ### **Note**
 **Definition:** General textual information relating to a resource.  
@@ -752,20 +747,7 @@ Example:
 * (example of existing metadata made by an institution) Probably written by Esther Reed who assumed leadership of the women’s relief effort in Philadelphia. See Reed, William B. The life of Esther De Berdt, afterwards Esther Reed, of Pennsylvania (Philadelphia, 1853), p. 313-324.;Followed by, on p. [2]: Ideas, relative to the manner of forwarding to the American soldiers, the presents of the American women.;Imprint from colophon. The American Antiquarian Society copy was found bound after the June 10, 1780, issue of the Pennsylvania packet, printed at Philadelphia by John Dunlap. Articles related to the women’s efforts were printed in the Pennsylvania packet on June 13, 17, 27, July 8, and Nov. 4, 1780.
 
 
-### **Administrative Notes**
-**Definition:** Administrative textual information relating to a resource.  
-**Obligation:** Optional; not repeatable  
-**Enter Data into Spreadsheet Column:** field_administrative_notes  
-**Type of field:** Text (plain, long)  
-**Application:**   
-* You may enter notes from the finding aid or guide, digitization notes (i.e. scanning related comments), or other notes not necessary for public knowledge.
-* Internal use only; does not appear in Public User Interface
 
-**Examples:**
-* Digitized by: Bocanegra, Sabrina
-* Digitized by: American Philosophical Society
-* Not only copy, see #93 in collection
-* Has restrictions, see ASpace record
 
  
 
