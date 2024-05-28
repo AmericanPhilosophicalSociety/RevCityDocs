@@ -270,13 +270,29 @@ Example:
 **Definition:** Indicates the order of a resource in a collection of resources (used for compound objects and paged content).  
 **Obligation:** _Required for Book Objects only!_; not repeatable  
 **Enter Data in Spreadsheet Column:** field_weight  
+**Type of field:** Entity reference  
+**Application:**  
+* This value will be added by **Administrator** through a python script; leave blank and do not delete the column.
+* This is only used by Workbench and is not migrated into the Repository Item node.
+
+Term name | Used for
+--- | ---
+Open Seadragon | Large Image, Page
+PDFjs | PDF
+Remote Media | Video or audio files stored externally
+
+
+### **Display Hints**  
+**Definition:** A term to define which viewer is used on an object page.  
+**Obligation:** Required for Workbench; not repeatable  
+**Enter Data in Spreadsheet Column:** field_display_hints  
 **Type of field:** Number (integer)  
 **Application:**  
 * This value will be added by **Administrator** through a python script; leave blank and do not delete the column
 * This is only used by Workbench and is not migrated into the Repository Item node.
 
-Example:
- [screenshot of Rev City workbench sheet]
+
+
 
 ### **Digital Origin**
 **Definition:** The method by which a resource achieved digital form.  
