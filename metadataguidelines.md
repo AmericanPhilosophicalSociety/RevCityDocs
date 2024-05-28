@@ -759,6 +759,14 @@ Additional information regarding Subjects:
 
 
 
+### **URL Alias**  
+**Definition:** An alias for a default URL.  
+**Obligation:** Optional; not repeatable  
+**Enter Data into Spreadsheet Column:** url_alias  
+**Type of field:** Text (plain)  
+**Application:**  
+* In this field, you will put the URL you would like for each of your objects, starting with the “/” following your root domain. 
+* So if your site is mysite.com and an object on your existing site with a title of “My Object” has a URL of _mysite.com/islandora/object/islandora:123_, you could put in your CSV a URL alias for that object of _/islandora/object/islandora:123_. On ingest, that object will get a custom URL instead of /islandora/my-object.
 
  
 
