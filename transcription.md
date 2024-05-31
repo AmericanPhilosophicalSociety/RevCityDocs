@@ -63,6 +63,8 @@ Next, delete any pages that do not contain text. If you are unsure whether a pag
     - Correct any lines that are too small or too large.
     - Delete and extraneous lines.
     - Manually add any lines that the automatic process missed.
+    - Verify line masks: does a line mask exist? Does it reasonably cover the text?
+      - Note: do **NOT** try to manually adjust masks. Instead, fiddle with the baseline until the mask reasonably encompasses the text. If the mask is truly egregious, ask a project manager for assistance. 
 - Manually segment any pages that cannot be automatically segmented.
 
 Please see the [official documentation](https://escriptorium.readthedocs.io/en/latest/segment/#text-line-segmentation) to learn how the segmentation tool operates.
