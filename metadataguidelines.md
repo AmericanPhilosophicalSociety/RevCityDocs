@@ -105,6 +105,7 @@ Object folder | total_scans field
 158 tif files | 158
 40 jpg files | 40
 
+***
 
 ### **Resource Type**
 **Definition:** A broad term that specifies the characteristics or general physical aspect of the content of the resource.   
@@ -144,6 +145,7 @@ Page | Text | Page
 PDF | [any] | Digital Document 
 Video | Moving Image | Video 
 
+***
 
 ### **Model**
 **Definition:** Type of content being represented by a node (e.g. an image, a video, a collection of other items, etc...)  
@@ -183,6 +185,8 @@ Page | Text | Page
 PDF | [any] | Digital Document 
 Video | Moving Image | Video 
 
+***
+
 ### **Member of**  
 **Definition:** Determines the parent of the object. It is used to identify the collection to which an object belongs, or the parent/container object if the object is a page or compound object.  
 **Obligation:** Required (if adding to a pre-existing collection); not repeatable  
@@ -191,6 +195,8 @@ Video | Moving Image | Video
 **Application:**  
 * For the purposes of Workbench, the Member Of column is used if you have a pre-existing collection in Drupal into which you want to ingest an object. In this case, you will enter the collection’s node ID in the Member Of column in the object row that belongs to the collection.
 * If you are adding a new collection to Drupal, you will leave this column blank. However you will not delete the column when ready for ingest.
+
+***
 
 ### **Title**  
 **Definition:** A word, phrase, character, or group of characters, normally appearing in a resource, that names it or the work contained in it.  
@@ -239,6 +245,8 @@ Diary/Journal | Elizabeth Farmer letter book, 1774-1789
 Broadside | In committee, December 14, 1774. Resolved, that the proceedings of this committee on November 30th, concerning the killing of sheep be republished in the English and German newspapers, and also in hand bills, to be dispersed through the markets of this city, viz. ... 
 Minutes | Society of Friends minutes 
 
+***
+
 ### **Id**  
 **Definition:** A unique identifier specifically used for Islandora Workbench as a reference to match objects with its parent collections.
 **Obligation:** Required; not repeatable  
@@ -252,6 +260,8 @@ Minutes | Society of Friends minutes
 
 Example:
  [screenshot of Rev City workbench sheet]
+
+***
 
 ### **Parent**  
 **Definition:** Defines the relationship between parent and child objects or nodes.  
@@ -267,6 +277,8 @@ Example:
 Example:
  [screenshot of Rev City workbench sheet]
 
+***
+
 ### **Weight**  
 **Definition:** Indicates the order of a resource in a collection of resources (used for compound objects and paged content).  
 **Obligation:** _Required for Book Objects only!_; not repeatable  
@@ -278,6 +290,8 @@ Example:
 
 Example:
  [screenshot of Rev City workbench sheet]
+
+***
 
 ### **Display Hints**  
 **Definition:** A term to define which viewer is used on an object page.  
@@ -294,6 +308,8 @@ Open Seadragon | Large Image, Page
 PDFjs | PDF
 Remote Media | Video or audio files stored externally
 
+***
+
 ### **Holding Institution**  
 **Definition:** Name of the organization contributing the digital item to Portal.  
 **Obligation:** Required; not repeatable  
@@ -308,6 +324,8 @@ Remote Media | Video or audio files stored externally
 * American Philosophical Society  
 * Library Company of Philadelphia  
 * Historical Society of Pennsylvania  
+
+***
 
 ### **Theme**  
 **Definition:** A Rev City locally controlled topical term/phrase that best characterizes or describes the general subject or topic of the item.  
@@ -329,6 +347,9 @@ Political Philosophy | The diverse ideological origins of the American Revolutio
 Politics and Causes of Revolution | As the capital of the colony of Pennsylvania and home to the Continental Congress, Philadelphia was a center for revolutionary politics throughout the 1770s and 1780s. Read more about politics both in and out of doors through the eyes of the women and men who experienced it.
 Slavery | Slavery was a central facet of life in the thriving port of Philadelphia. Learn more about the experiences of bondspeople, and those who enslaved them, during the Revolution through receipts of sale, fugitive notices, advertisements, and other primary sources.
 Waging the War | The Revolutionary War was, after all, a violent confrontation. Learn more about the details of military engagements , the execution of campaigns, and the spread of news from the battlefront to those back home.
+
+
+
 
 ## **Recommended Metadata**
 
@@ -357,6 +378,7 @@ Diary/Journal | Collected letters of Eliza Farmer, third wife of Dr. Richard Far
 Broadside | Offering bounties to those volunteering to serve with the King George III’s troops.
 Minutes | Minutes that record the disciplining of Timothy Davis, who wrote a piece on taxation [A Letter From A Friend To Some Of His Intimate Friends, On the Subject of paying Taxes (1776)], and that record the disownment of Isaac Howell of Philadelphia, who manifested "a disposition to contend for Civil Rights. . . & accepted & acted in a public Station," and the disownment of John Thompson, who sought "to lay wast[e] & establish Government by Military force & to take a Test to that end."
 
+***
 
 ### **Alternative Title**
 **Definition:** Any form of the title used as a substitute or alternative to the formal title of the resource.  
@@ -375,6 +397,7 @@ The Sol Feinstone Collection on the American Revolution, ca. 1760s-1850s finding
    Title = Adams, Samuel to Sally Preston Adams, 1778 June 7  
    Alternative Title = No. 27 Dr. Samuel Adams to Sally Preston Adams  
 
+***
 
 ### **Date Created**
 **Definition:** The date of creation of the original resource.  
@@ -409,7 +432,6 @@ Additional information regarding Date:
   *  Use the date that the letter was written or that the card was postmarked
  
 
-
 Type of Date | Format | Example 
 --- | --- | ---
 Year only | YYYY | 1776
@@ -429,6 +451,7 @@ Multiple dates | YYYY\|YYYY\|YYYY | 1771\|1775\|1779
 
 ***Please consult EDTF standards for more information on formatting.**
 
+***
 
 ### **Date Digitized**
 **Definition:** The date on which the resource was digitized or a subsequent snapshot was taken.   
@@ -445,6 +468,8 @@ Multiple dates | YYYY\|YYYY\|YYYY | 1771\|1775\|1779
 * 2021
 * 2021-04
 * 2021-04-01
+
+***
 
 ### **Digital Origin**
 **Definition:** The method by which a resource achieved digital form.  
@@ -464,6 +489,7 @@ Born digital | A resource was created in and is intended to remain in digital fo
 Digitized microfilm | A resource was created by digitizing a microform [microfilm/microfiche].
 Digitized other analog | A resource was created by digitizing an intermediate form of the original resource (but not microform) such as photocopy, transparency, slide, 2nd generation analog tapes, etc. [might include carbon copies]
 
+***
 
 ### **Extent**
 **Definition:** A statement of the number of the units (pages), file size, or duration of the resource.  
@@ -482,6 +508,7 @@ Diary | 156p.
 Oral history interview | 1:04:24
 Song recording | 0:03:55 
 
+***
 
 ### **Genre**
 **Definition:** A term or phrase that designate a category characterizing a particular style, form, or content, such as artistic, musical, literary composition, etc.; the type of object it is.  
@@ -506,6 +533,7 @@ Additional information regarding Genre:
 * Diaries\|Bookkeeping records
 * Minutes\|Excerpts
 
+***
 
 ### **Language**
 **Definition:** A designation of the language in which the content of a resource is expressed.  
@@ -529,6 +557,7 @@ Additional information regarding Genre:
 * Spanish (spa)
 * English (eng)\|Chontal Maya (chf)\|German (ger)
 
+***
 
 ### **Parent Collection Call Number**
 **Definition:** Local call number or accession number for the original source object.  
@@ -546,6 +575,8 @@ Additional information regarding Genre:
 * Amb.1752
 * Coll740
 
+***
+
 ### **Parent Collection Title**
 **Definition:** The name of a collection of which the item being described is a part.  
 **Obligation:** Required; not repeatable  
@@ -560,6 +591,8 @@ Additional information regarding Genre:
 * Julia Rush letters, 1776-1809
 * Spokane primer, 1976
 
+***
+
 ### **Parent Collection URL**
 **Definition:** Internet address of the finding aid, collection description, or other guide for understanding and accessing the repository collection to which the resource belongs.  
 **Obligation:** Required if applicable; not repeatable  
@@ -573,6 +606,7 @@ Additional information regarding Genre:
   
   Incorrect: https://search.amphilsoc.org/collections/view?docId=ead/Mss.DLAR.Film.706-ead.xml;query=Jasper%20Yeates%20papers;brand=default
 
+***
 
 ### **People**
 **Definition:** The name of a linked agent (e.g. person, organization, or event) associated in some way with the resource.  
@@ -616,6 +650,7 @@ Examples:
 * relators:sgn:corporate_body:Society of Friends
 * relators:col:family:Biddle family
 
+***
 
 ### **Place Published**
 **Definition:** The name of the entity that published, printed, distributed, released, issued, or produced the resource.  
@@ -633,11 +668,12 @@ Examples:
   *  Use the names as they appear in the item for non-government or single-level bodies
   *  Write out names instead of using acronyms
 
-
 **Examples:**  
 * Philadelphia : Printed by John Dunlap, 1777
 * Baltimore : Printed by Mary Katharine Goddard, 1777
 * [Philadelphia] : Printed by F. Bailey, [1783]
+
+***
 
 ### **Reformatting Quality**
 **Definition:** The type of scan done on the original object, e.g. access (JPEG) or preservation (TIFF).  
@@ -650,6 +686,7 @@ Examples:
 * Scanning done for _Rev City_ should always be preservation, however, there may be exceptions. Please talk to the Project Team if there are questions.
 * Note: Derivatives are created upon ingest.
 
+***
 
 Reformatting Quality term | Definition 
 --- | --- 
@@ -657,6 +694,7 @@ Access | The electronic resource is intended to support current electronic acces
 Preservation | The electronic resource was created via reformatting to help preserve the original item. The capture and storage techniques ensure high-quality, long-term protection." This value will be used most commonly. 
 Replacement | The electronic resource is of high enough quality to serve as a replacement if the original is lost, damaged, or destroyed.
 
+***
 
 ### **Subjects**
 **Definition:** A formal term or phrase representing the primary topic(s) (people, organizations, events or themes depicted or described) on which an item is focused.  
@@ -708,6 +746,7 @@ Additional information regarding Subjects:
   *  Only include geographic subjects when the particular place is important to the subject content.
 * It is not necessary to repeat terms from controlled vocabularies as keywords
 
+
  
 
 ## **Other Metadata**
@@ -727,6 +766,8 @@ Additional information regarding Subjects:
 * Not only copy, see #93 in collection
 * Has restrictions, see ASpace record
 
+***
+
 ### **Date Modified**  
 **Definition:** The date in which a resource is modified or changed.  
 **Obligation:** Optional; not repeatable  
@@ -737,7 +778,7 @@ Additional information regarding Subjects:
 
 **Examples:** See Date Created for information on formatting.
 
-
+***
 
 ### **Note**
 **Definition:** General textual information relating to a resource.  
@@ -758,7 +799,7 @@ Additional information regarding Subjects:
 * Blank pages were not scanned.
 * (example of existing metadata made by an institution) Probably written by Esther Reed who assumed leadership of the women’s relief effort in Philadelphia. See Reed, William B. The life of Esther De Berdt, afterwards Esther Reed, of Pennsylvania (Philadelphia, 1853), p. 313-324.;Followed by, on p. [2]: Ideas, relative to the manner of forwarding to the American soldiers, the presents of the American women.;Imprint from colophon. The American Antiquarian Society copy was found bound after the June 10, 1780, issue of the Pennsylvania packet, printed at Philadelphia by John Dunlap. Articles related to the women’s efforts were printed in the Pennsylvania packet on June 13, 17, 27, July 8, and Nov. 4, 1780.
 
-
+***
 
 ### **URL Alias**  
 **Definition:** An alias for a default URL.  
