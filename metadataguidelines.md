@@ -248,7 +248,7 @@ Minutes | Society of Friends minutes
 ***
 
 ### **Id**  
-**Definition:** A unique identifier specifically used for Islandora Workbench as a reference to match objects with its parent collections.
+**Definition:** A unique identifier specifically used for Islandora Workbench as a reference to match objects with its parent collections.  
 **Obligation:** Required; not repeatable  
 **Enter Data in Spreadsheet Column:** id  
 **Type of field:** Number (integer)  
@@ -267,7 +267,7 @@ Example:
 **Definition:** Defines the relationship between parent and child objects or nodes.  
 **Obligation:** Required, not repeatable  
 **Enter Data in Spreadsheet Column:** parent_id  
-**Type of field:** Number (integer)
+**Type of field:** Number (integer)  
 **Application:**  
 * For new collections, you must enter the proper number from the _id_ field into the _parent_id_ column. 
 * If the collection into which you are ingesting the object already exists in the Portal, you can use field_member_of to identify the parent using its node ID. 
@@ -348,6 +348,7 @@ Politics and Causes of Revolution | As the capital of the colony of Pennsylvania
 Slavery | Slavery was a central facet of life in the thriving port of Philadelphia. Learn more about the experiences of bondspeople, and those who enslaved them, during the Revolution through receipts of sale, fugitive notices, advertisements, and other primary sources.
 Waging the War | The Revolutionary War was, after all, a violent confrontation. Learn more about the details of military engagements , the execution of campaigns, and the spread of news from the battlefront to those back home.
 
+**Example:** See The Revolutionary City Portal [theme page](https://therevolutionarycity.org/taxonomy/vocab/theme_list) for examples of the types of material under each theme.
 
 
 
@@ -357,7 +358,7 @@ Waging the War | The Revolutionary War was, after all, a violent confrontation. 
 **Definition:**  A narrative, textual description summarizing the content of the item.  
 **Obligation:** Highly recommended; repeatable  
 **Enter Data into Spreadsheet Column:** field_description_long  
-**Type of field:** Text (formatted, long)
+**Type of field:** Text (formatted, long)  
 **Application:**  
 * This field is used for a free-text account of the intellectual content of the original item. For this reason, the content in the _abstract_ field can be a little longer than in other fields. It can be taken from the original item or created.
 * Captions or inscriptions that are not used in the Title field may be included in the _abstract_ field.
@@ -407,8 +408,8 @@ The Sol Feinstone Collection on the American Revolution, ca. 1760s-1850s finding
 **Application:**  
 * Use _field_edtf_date_created_ for: known numerical dates – 1776-07-04
   *  Must conform to Extended Date/Time Format (EDTF) standards.
-  *  See (https://www.loc.gov/standards/datetime/) for more information.
-  *  Use the validator (https://digital2.library.unt.edu/edtf/) if unsure your date value conforms to EDTF standard.
+  *  See [EDTF Specification](https://www.loc.gov/standards/datetime/) for more information.
+  *  Use the [date validator](https://digital2.library.unt.edu/edtf/) if unsure your date value conforms to EDTF standard.
   *  If the date is unknown, leave this field blank and use the text field below.
 * Use _field_date_created_text_ for: plain text dates – undated, approximately 1930s
   *  Never write the date as **n.d.** if the date is unknown, only use the term undated.
@@ -449,7 +450,7 @@ Unspecified digit | YYYX-MM-DD | 178X-07-04
 Year and Month uncertain | YYYY-MM~-DD | 1774-05~-20
 Multiple dates | YYYY\|YYYY\|YYYY | 1771\|1775\|1779
 
-***Please consult EDTF standards for more information on formatting.**
+***Please consult [EDTF Specification](https://www.loc.gov/standards/datetime/) for more information on formatting.**
 
 ***
 
@@ -460,8 +461,8 @@ Multiple dates | YYYY\|YYYY\|YYYY | 1771\|1775\|1779
 **Type of field:** EDTF  
 **Application:**  
 * Must conform to Extended Date/Time Format (EDTF) standards.
-* See (https://www.loc.gov/standards/datetime/) for more information.
-* Use the validator (https://digital2.library.unt.edu/edtf/) if unsure your date value conforms to EDTF standard.
+*  See [EDTF Specification](https://www.loc.gov/standards/datetime/) for more information.
+*  Use the [date validator](https://digital2.library.unt.edu/edtf/) if unsure your date value conforms to EDTF standard.
 * If the date is unknown, leave the field blank.
 
 **Examples:**
@@ -518,8 +519,8 @@ Song recording | 0:03:55
 **Application:**  
 * Enter a term for the genre of the resource that characterizes its content. The genre field should be used to characterize the content of the resource rather than the resource itself or its physical characteristics.
 * Choose applicable genre terms from the Getty Art and Architecture Thesaurus (AAT) (particularly AAT terms denoted as "genre"), or from the MARC Genre Term List (MARCGT).
-  *  AAT: http://www.getty.edu/research/tools/vocabularies/aat/ 
-  *  MARCGT: https://www.loc.gov/standards/valuelist/marcgt.html 
+  *  AAT: <http://www.getty.edu/research/tools/vocabularies/aat/>
+  *  MARCGT: <https://www.loc.gov/standards/valuelist/marcgt.html> 
 * Be consistent and use Plural terms with the first letter capitalized.
 * Separate multiple entries with a semicolon and no spaces in between entries
 
@@ -544,7 +545,7 @@ Additional information regarding Genre:
 * Format as: Language term (language abbreviation)  
 * Assign a three-letter language code from ISO 639-2 that matches language term	
   *  B for bibliographic
-  *  https://www.loc.gov/standards/iso639-2/php/code_list.php
+  *  <https://www.loc.gov/standards/iso639-2/php/code_list.php>
 * For Indigenous languages use: https://indigenousguide.amphilsoc.org/language_browse 
 * Include all relevant languages (do not include languages that are merely referenced or only appear as single words in text of another language)
 * If there is more than one language:
@@ -602,9 +603,9 @@ Additional information regarding Genre:
 * Enter the URL of the finding aid or other collection guide. **Enter the URL only.**
 * Do not include entire URL when pulling from a search 
 
-  Correct: https://search.amphilsoc.org/collections/view?docId=ead/Mss.DLAR.Film.706-ead.xml  
+  _Correct_: <https://search.amphilsoc.org/collections/view?docId=ead/Mss.DLAR.Film.706-ead.xml>  
   
-  Incorrect: https://search.amphilsoc.org/collections/view?docId=ead/Mss.DLAR.Film.706-ead.xml;query=Jasper%20Yeates%20papers;brand=default
+  _Incorrect_: <https://search.amphilsoc.org/collections/view?docId=ead/Mss.DLAR.Film.706-ead.xml;query=Jasper%20Yeates%20papers;brand=default>
 
 ***
 
@@ -621,8 +622,8 @@ Additional information regarding Genre:
   *  If the linked agent is an organization or group of people identified by a name and that acts, or may act, as a unit, or an institutional position held by a person, use corporate_body
   *  If the creator is two or more people related through marriage, birth, adoption, or other legal manner, or who present themselves as a family, use family
 * Use authorized forms of names from LCNAF or VIAF when they exist.
-  *  LC Name Authority File: http://id.loc.gov/authorities/names.html
-  *  Virtual International Authority File: https://viaf.org/viaf
+  *  LC Name Authority File: <http://id.loc.gov/authorities/names.html>
+  *  Virtual International Authority File: <https://viaf.org/viaf>
 * Where no authorized entry exists in LCNAF or VIAF, please construct names according to the standards below:
   *  Enter personal names in inverted form: Last Name, First Name, Middle Name or initial (include birth and death dates if known). 
   *  Do not use honorifics, titles, or nicknames unless it is necessary to disambiguate (e.g., the first name of the person is unknown).
@@ -711,12 +712,12 @@ Replacement | The electronic resource is of high enough quality to serve as a re
 * For all subject fields:
   *  If there is more than one term or phrase in the subject field, separate by pipe with no spaces between terms, i.e. Female friendship\|Social networks--18th century\|War and families 
 * Use authorized terms from LCSH, LCNAF, or another thesaurus whenever possible.
-  *  LC Subject Headings: http://id.loc.gov/authorities/subjects.html (Use for topical subjects)
-  *  LC Name Authority File: http://id.loc.gov/authorities/names.html (Use for name and location subjects)
-  *  LC Authorites (all): https://authorities.loc.gov/webvoy.htm 
-  *  FAST: https://fast.oclc.org/searchfast/
-  *  Homosaurus: https://homosaurus.org/  
-  *  CNAIR controlled vocabulary : https://indigenousguide.amphilsoc.org/culture_browse/all
+  *  LC Subject Headings: <http://id.loc.gov/authorities/subjects.html> (Use for topical subjects)
+  *  LC Name Authority File: <http://id.loc.gov/authorities/names.html> (Use for name and location subjects)
+  *  LC Authorites (all): <https://authorities.loc.gov/webvoy.htm> 
+  *  FAST: <https://fast.oclc.org/searchfast/>
+  *  Homosaurus: <https://homosaurus.org/>  
+  *  CNAIR controlled vocabulary : <https://indigenousguide.amphilsoc.org/culture_browse/all>
 * For Locations:  
   *  Return and Send addresses (mostly cities) should be added to the _field_geographic_subject_. Locations where people are writing from and sending to are important metadata.
 * For Name subjects:
