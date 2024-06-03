@@ -53,7 +53,7 @@ This document is intended as a guide to data entry and descriptive cataloging fo
   *  Enter the folder name that contains the media
   *  The folder name must be the same root as the file name
   
-      Folder name = Mss_Coll_190  (this is entered in the _file_ field only)
+      Folder name = Mss_Coll_190  (this is entered in the _file_ field only)  
       Filenames within folder = Mss_Coll_190-001.tif, Mss_Coll_190-002.tif, etc.
 
 * If you are uploading multiple **Single Graphics, Audio, or Video objects**, the file column should be formatted:
@@ -86,6 +86,7 @@ The Bulk Rename Utility application can be used to apply bulk changes to both fo
   *  /mnt/ingest/data/Mss_B_P31_F8_62_5.tif
   *  /mnt/ingest/data/audio9177.wav
 
+***
 
 ### **Total Scans**
 **Definition:** Number of digital files for a given object or resource.  
