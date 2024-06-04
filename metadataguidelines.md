@@ -10,6 +10,7 @@ last_modified_date: May 16 2024
 This document is intended as a guide to data entry and descriptive cataloging for _The Revolutionary City: A Portal to the Nation’s Founding_, a collaborative digital project using Islandora and Drupal software. It is designed to help the creator of the record metadata decide what information is required, which field is the best choice for the information, and the format in which the information should be entered.  It will be updated as modifications in the software and/or metadata schema necessitate.
 
 ## **Table of Contents**
+- TOC
 {:toc}
 
 ## **Quick Links**
