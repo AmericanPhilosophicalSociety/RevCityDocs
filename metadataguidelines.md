@@ -11,7 +11,7 @@ This document is intended as a guide to data entry and descriptive cataloging fo
 
 <details open markdown="block">
   <summary>
- **Table of Contents**
+ Table of Contents
     </summary>
 - TOC
 {:toc}
