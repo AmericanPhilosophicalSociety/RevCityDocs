@@ -2,7 +2,7 @@
 layout: page
 title: Digitization Guidelines
 permalink: /digitization/
-last_modified_date: May 14 2024
+last_modified_date: June 10 2024
 ---
 
 # {{ page.title }}
@@ -131,7 +131,7 @@ When viewing images in Image Viewer or Photoshop, check for:
 The Project Team will perform any post scan/digitization adjustments if needed. Please contact Project Data Manager if you have any questions or concerns about the faithfulness of the scanned image(s) to the original(s).
 
 ## **Quality Control Measures**
-**Images:**
+### **Images:**
 * Image review should occur at every stage of scanning - including previewing, after scanning, and after any post-processing.
 * Always perform quality control on scans at the end of a folder/box, day, or time scanning.
   *  Make sure scans reflect items in the box or folder.
@@ -150,3 +150,16 @@ The Project Team will perform any post scan/digitization adjustments if needed. 
 * Completeness (is any of the object cut off?)
 * Color/contrast (is the color of the image reasonably accurate? Does the image look too bright or too dark?)
 
+### **Metadata:**
+Metadata review should occur before and after upload into the Portal.
+
+**Review this checklist once after metadata creation is complete:**
+* Re-read each field for typos (spell check is encouraged, as google sheets does not do this automatically)
+* Does the format of each field adhere to Workbench standards? (Be mindful of specific formatting for each field as Workbench will not upload metadata if incorrectly input into spreadsheet!)
+* Does the file field in Workbench sheet match the scanned image filename?
+* Is the metadata consistent throughout the collection and with current Rev City Metadata standards? 
+* Are all of the required fields filled in? Is there missing information about the object? 
+
+**Review this checklist once after objects are uploaded into Portal:**
+* Are all required fields displayed accurately? 
+* Is any data missing or displaying oddly?
