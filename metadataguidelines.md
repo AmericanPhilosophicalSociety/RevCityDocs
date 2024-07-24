@@ -389,7 +389,7 @@ Minutes | Minutes that record the disciplining of Timothy Davis, who wrote a pie
 
 ### **Alternative Title**
 **Definition:** Any form of the title used as a substitute or alternative to the formal title of the resource.  
-**Obligation:** Recommended as appropriate; repeatable  
+**Obligation:** Recommended as appropriate; not repeatable  
 **Enter Data into Spreadsheet Column:** field_alternative_title  
 **Type of field:** Text (plain)  
 **Application:**  
@@ -397,6 +397,7 @@ Minutes | Minutes that record the disciplining of Timothy Davis, who wrote a pie
 * This is not intended to be a repetition of the main title.
 * Ensure that the alternative title is for the object, not the title of the series or the collection, or for other related objects.
 * Contact Project Supervisor if unsure whether an item requires an alternative title.
+* If there is more than one alternative title, separate in field with a semi-colon.
 
 **Example:**  
 The Sol Feinstone Collection on the American Revolution, ca. 1760s-1850s finding aid contains item-level cataloging. The title of each item in the finding aid contains a “No.” To avoid confusion in the digital library and conform to project standards as given in this guide - we’ve added the finding aid title as the Alternative Title and created a new title following RevCity guidelines.  
