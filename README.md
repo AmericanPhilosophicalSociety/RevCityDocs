@@ -4,7 +4,7 @@ This GitHub repository stores the source code for the [documentation](https://am
 
 The documentation pages are written in [Jekyll](https://jekyllrb.com/) and use the [Just the Docs](https://just-the-docs.com/) theme. Pages are written in Markdown. The site is published via [GitHub actions](https://jekyllrb.com/docs/continuous-integration/github-actions/).
 
-For help using Markdown, please take this [Markdown tutorial](https://www.markdowntutorial.com/) and see this [cheatsheet]().
+For help using Markdown, please take this [Markdown tutorial](https://www.markdowntutorial.com/) and see this [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
 # Contributing
 
