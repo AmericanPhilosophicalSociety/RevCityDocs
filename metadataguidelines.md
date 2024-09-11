@@ -145,7 +145,7 @@ Object Type | Resource Type term | Islandora Model term
 Collection | Collection | Collection 
 Audio | Sound | Audio 
 Basic Image (jpeg) | Still Image | Image 
-Book (parent of pages) | Still Image | Image 
+Book (parent of pages) | Collection | Paged Content 
 Large Image (tiff) | Still Image | Image 
 Page | Text | Page 
 PDF | [any] | Digital Document 
@@ -185,7 +185,7 @@ Object Type | Resource Type term | Islandora Model term
 Collection | Collection | Collection 
 Audio | Sound | Audio 
 Basic Image (jpeg) | Still Image | Image 
-Book (parent of pages) | Still Image | Image 
+Book (parent of pages) | Collection | Paged Content 
 Large Image (tiff) | Still Image | Image 
 Page | Text | Page 
 PDF | [any] | Digital Document 
