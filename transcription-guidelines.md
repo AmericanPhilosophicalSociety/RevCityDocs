@@ -2,7 +2,7 @@
 layout: page
 title: Transcription Conventions and Guidelines
 permalink: /transcription-guidelines/
-last_modified_date: 2024-05-15
+last_modified_date: 2024-10-08
 ---
 
 {{ page.title }}
@@ -22,6 +22,9 @@ In general, follow diplomatic transcription conventions. To the greatest extent 
 ## Crossed-out text
 
 Treat crossed-out text as [illegible]({{ site.baseurl }}/RevCityDocs/transcription-guidelines/#illegibles).
+
+If you can make out the text without great difficulty, place the crossed out text in square brackets.
+![Illegible text example]({{ site.baseurl }}/assets/illegible.png)
 
 For extended passages of crossed-out text where the text is still largely legible, please transcribe the text normally.
 
