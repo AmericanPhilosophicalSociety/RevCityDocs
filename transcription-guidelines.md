@@ -110,3 +110,11 @@ Transcribe unrounded parentheses as a slash "/". If the parentheses look like mo
 Transcribe the long mark for "shillings" as "s".
 
 ![Currency example]({{ site.baseurl }}/assets/currency.png)
+
+## Uncertainty
+
+Note that the machine learning models we are training cannot accomodate uncertainty. In the event that you truly cannot figure out how to transcribe something, please indicate the problematic passage with curly braces like so:
+
+{uncertain text}
+
+This will indicate to a supervisor that the passage should be double checked and potentially excluded from training.
