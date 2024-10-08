@@ -27,8 +27,6 @@ When you sign in, you should automatically be redirected to the projects page. I
 
 To view a project, click on the project's name. You will know it is a project name because the text is blue.
 
-![Project names]({{ site.baseurl }}/assets/project-names.png)
-
 ## Selecting a document
 
 After you have entered a project, click on the document's name to begin working with it. Note that only 10 documents are displayed per page. You can access the next page through the arrow buttons at the bottom of the page.
@@ -73,4 +71,4 @@ Find the transcription bar, and use the dropdown to select your transcription. I
 
 ![Find transcription]({{ site.baseurl }}/assets/find-transcription.png)
 
-You can now edit and correct the transcription just as if you were transcribing the document manually. Click on a line to open a panel to start correcting it.
+You can now edit and correct the transcription just as if you were [transcribing the document manually]({{ site.baseurl}}/transcribathon/#transcribing-a-page-manually). Click on a line to open a panel to start correcting it.
