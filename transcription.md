@@ -52,6 +52,10 @@ Go through the whole document and make sure the pages are in the right order. If
 
 Next, delete any pages that do not contain text. If you are unsure whether a page has text, please ask your manager.
 
+### Handling upside down or sideways pages
+
+You can use the Source Image panel to rotate the image to the correct orientation. Note, however, that you must to rotate the image back to its original orientation once segmentation and/or transcription is complete; otherwise, it cannot be used for training.
+
 ### 2. Segment the pages
 
 - Select all images you would like to segment automatically
