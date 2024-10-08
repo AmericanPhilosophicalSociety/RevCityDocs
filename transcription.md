@@ -2,7 +2,7 @@
 layout: page
 title: Transcription Workflow
 permalink: /transcription/
-last_modified_date: 2024-05-15
+last_modified_date: 2024-10-08
 ---
 
 # {{ page.title }}
