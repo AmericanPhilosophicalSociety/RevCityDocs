@@ -610,9 +610,9 @@ Additional information regarding Genre:
 * Enter the URL of the finding aid or other collection guide. **Enter the URL only.**
 * Do not include entire URL when pulling from a search 
 
-  _Correct_: <https://search.amphilsoc.org/collections/view?docId=ead/Mss.DLAR.Film.706-ead.xml>  
-  
-  _Incorrect_: <https://search.amphilsoc.org/collections/view?docId=ead/Mss.DLAR.Film.706-ead.xml;query=Jasper%20Yeates%20papers;brand=default>
+ **Examples:**
+  <https://as.amphilsoc.org/repositories/2/resources/29>   
+  <https://as.amphilsoc.org/repositories/2/resources/1402>
 
 ***
 
