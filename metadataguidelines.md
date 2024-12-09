@@ -610,9 +610,12 @@ Additional information regarding Genre:
 * Enter the URL of the finding aid or other collection guide. **Enter the URL only.**
 * Do not include entire URL when pulling from a search 
 
- **Examples:**
+ **Examples:**  
   <https://as.amphilsoc.org/repositories/2/resources/29>   
-  <https://as.amphilsoc.org/repositories/2/resources/1402>
+  <https://as.amphilsoc.org/repositories/2/resources/1402>  
+  <http://pacscl.exlibrisgroup.com:48992/F?func=direct&doc_number=000056436>  
+  <https://hsp.org/sites/default/files/mss/bank_of_north_america_accessible_items_3-4-2014.pdf>
+  
 
 ***
 
