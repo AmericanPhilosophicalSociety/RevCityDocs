@@ -305,11 +305,13 @@ Example:
 **Enter Data in Spreadsheet Column:** field_display_hints  
 **Type of field:** Entity reference  
 **Application:**  
-* This value will be added by **Administrator** through a python script; leave blank and do not delete the column
-* This is only used by Workbench and is not migrated into the Repository Item node.
+* Enter the term from the controlled list below that will appropriately display your object.
+* Mirador is the preferred display viewer for all Rev City manuscripts.
+
 
 Term name | Used for
 --- | ---
+Mirador | Large Image, Page
 Open Seadragon | Large Image, Page
 PDFjs | PDF
 Remote Media | Video or audio files stored externally
