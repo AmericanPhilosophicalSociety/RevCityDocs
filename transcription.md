@@ -95,8 +95,8 @@ Please see the [official documentation](https://escriptorium.readthedocs.io/en/l
 #### For journals
 {: .no_toc }
 
-- Make sure that each page has its own region.
-- Assign each region the type "Main."
+- Use a model finetuned for journals. These will usually have "journal" or "two_page" in their names.
+- When checking the work, assign the left side of the page the region "Main A" and the right side of the page the region "Main B."
 
 Please consult the [official documentation](https://escriptorium.readthedocs.io/en/latest/segment/#region-segmentation) for more information on regions.
 
