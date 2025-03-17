@@ -10,7 +10,7 @@ This document is intended as a quick reference for digitization workflow, specif
 
 
 ### **Review collection for metadata management**
-1. Find the Collection Metadata Management spreadsheet for the designated collection material or create one using a [template](https://docs.google.com/spreadsheets/d/1rgcWJOyBZmGv8kOKES2PGMC3dCYxy9ZJDj9hPWotbok/edit#gid=0).
+1. Find the Collection Metadata Management spreadsheet for the designated collection material or create one using a [template](https://docs.google.com/spreadsheets/d/1hQpmP9aicqN4kc-kVEmcZs_tJhxYc6MHnzeNn_-5Wbk/edit?gid=0#gid=0).
 * Capture any pre-existing metadata.
 * If no finding aid or inventory exists, then create an inventory of the collection.
 
