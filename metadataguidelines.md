@@ -22,6 +22,7 @@ This document is intended as a guide to data entry and descriptive cataloging fo
 [_The Revolutionary City_ Workbench spreadsheet](https://docs.google.com/spreadsheets/d/1WacRNrChpRkMAK4PefgRHpRiS3kGFy1qNC4e6gk3-jM/edit#gid=1002365943)  
 [_The Revolutionary City_ authority values](https://docs.google.com/spreadsheets/d/1LXrGtfqEMJIF2YMybozO_QUC-3WEP3GQ5GpxhRgTJO0/edit#gid=1692189288)  
 [_The Revolutionary City_ Digitization Workflows Guide](https://docs.google.com/presentation/d/1STI-qUVlGjjtBmtEin_qq4iXElq_usPd1lTL0Dxvy1w/edit#slide=id.g583e451791_0_92)  
+[Workbench Bulk Tasks instructions](https://docs.google.com/document/d/1lR0slYVEJQM5YXvhAPSc_lCGtt7CrzVOxUWQT4Eywdo/edit?tab=t.0)
 
 
 ## **Each field includes the following information**
