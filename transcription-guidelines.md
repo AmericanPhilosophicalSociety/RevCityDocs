@@ -2,7 +2,7 @@
 layout: page
 title: Transcription Conventions and Guidelines
 permalink: /transcription-guidelines/
-last_modified_date: 2024-10-08
+last_modified_date: 2025-04-07
 ---
 
 {{ page.title }}
@@ -17,7 +17,9 @@ last_modified_date: 2024-10-08
 {:toc}
 </details>
 
-In general, follow diplomatic transcription conventions. To the greatest extent possible, write exactly what you see on the page, including all misspellings, abbreviations, characters ("&", "$", "@", "£"), and punctuation marks. Record all diacritics and note their presence in the tracker. Other features, such as underlining, do not need to be recorded. Avoid the use of special characters for punctuation (e.g. the en dash "–", the em dash "—", underscores, curly quotes, curly apostrophes).
+APS transcription guidelines in general follow [CATMuS](https://catmus-guidelines.github.io/index.html). Where this guide and CATMuS are in disagreement, follow this guide and open a GitHub issue.
+
+To the greatest extent possible, write exactly what you see on the page, including all misspellings, abbreviations, characters ("&", "$", "@", "£"), and punctuation marks. Record all diacritics and note their presence in the tracker. Other features, such as underlining, do not need to be recorded. Avoid the use of special characters for punctuation (e.g. the en dash "–", the em dash "—", underscores, curly quotes, curly apostrophes).
 
 ## Crossed-out text
 
