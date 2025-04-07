@@ -56,7 +56,24 @@ Next, delete any pages that do not contain text. If you are unsure whether a pag
 
 You can use the Source Image panel to rotate the image to the correct orientation. Note, however, that you must to rotate the image back to its original orientation once segmentation and/or transcription is complete; otherwise, it cannot be used for training.
 
-### 2. Assign regions
+### 2. Segment the pages
+
+- Select all images you would like to segment automatically
+    - Generally this can be used for any plain text page.
+    - Pages with strange formats (upside down or sideways text) will not perform well
+    - **Warning**: Only segment 2-3 pages at a time. If you select too many, the process may fail and put undue stress on the system.
+- Click the "Segment" button.
+- After the popup appears telling you that the pages have been segmented, verify that the segmentation is good.
+    - Correct any lines that are too small or too large.
+    - Delete and extraneous lines.
+    - Manually add any lines that the automatic process missed.
+    - Verify line masks: does a line mask exist? Does it reasonably cover the text?
+      - Note: do **NOT** try to manually adjust masks. Instead, fiddle with the baseline until the mask reasonably encompasses the text. If the mask is truly egregious, ask a project manager for assistance. 
+- Manually segment any pages that cannot be automatically segmented.
+
+Please see the [official documentation](https://escriptorium.readthedocs.io/en/latest/segment/#text-line-segmentation) to learn how the segmentation tool operates.
+
+### 3. Assign regions
 
 #### For correspondence
 {: .no_toc }
@@ -81,26 +98,10 @@ You can use the Source Image panel to rotate the image to the correct orientatio
 - Use a model finetuned for journals. These will usually have "journal" or "two_page" in their names.
 - When checking the work, assign the left side of the page the region "Main A" and the right side of the page the region "Main B."
 
+**Note**: Once you are pleased with the segmentation, you must associate the lines and the regions. To do this, press ```Ctrl + A``` to select all lines, then ```Y``` to associate lines and their regions. Lines can only be associated with one region and will be grouped with the region closest to their centroid.
+
 Please consult the [official documentation](https://escriptorium.readthedocs.io/en/latest/segment/#region-segmentation) for more information on regions.
 
-### 3. Segment the pages
-
-- Select all images you would like to segment automatically
-    - Generally this can be used for any plain text page.
-    - Pages with strange formats (upside down or sideways text) will not perform well
-    - **Warning**: Only segment 2-3 pages at a time. If you select too many, the process may fail and put undue stress on the system.
-- Click the "Segment" button.
-- After the popup appears telling you that the pages have been segmented, verify that the segmentation is good.
-    - Correct any lines that are too small or too large.
-    - Delete and extraneous lines.
-    - Manually add any lines that the automatic process missed.
-    - Verify line masks: does a line mask exist? Does it reasonably cover the text?
-      - Note: do **NOT** try to manually adjust masks. Instead, fiddle with the baseline until the mask reasonably encompasses the text. If the mask is truly egregious, ask a project manager for assistance. 
-- Manually segment any pages that cannot be automatically segmented.
-
-Please see the [official documentation](https://escriptorium.readthedocs.io/en/latest/segment/#text-line-segmentation) to learn how the segmentation tool operates.
-
-Once you are pleased with the segmentation, you must associate the lines and the regions. To do this, press ```Ctrl + A``` to select all lines, then ```Y``` to associate lines and their regions. Lines can only be associated with one region and will be grouped with the region closest to their centroid._
 
 ### 4. Transcribing the document
 
