@@ -2,7 +2,7 @@
 layout: page
 title: Transcription Conventions and Guidelines
 permalink: /transcription-guidelines/
-last_modified_date: 2025-04-07
+last_modified_date: 2025-04-17
 ---
 
 {{ page.title }}
@@ -32,7 +32,7 @@ For extended passages of crossed-out text where the text is still largely legibl
 
 ## Superscript writing
 
-Transcribe all superscript letters with a "^" preceding the superscript text:
+Transcribe all superscript letters with a "^" preceding the superscript text. Punctuation **always** follows the superscript insertion.
 
 ![Superscript writing example 1]({{ site.baseurl }}/assets/superscript-1.png)
 ![Superscript writing example 2]({{ site.baseurl }}/assets/superscript-2.png)
@@ -120,3 +120,5 @@ Note that the machine learning models we are training cannot accomodate uncertai
 {uncertain text}
 
 This will indicate to a supervisor that the passage should be double checked and potentially excluded from training.
+
+Staff and interns should **NOT** indicate uncertainty. Instead, they should make their best guess and use a project log or tracker to request further review.
