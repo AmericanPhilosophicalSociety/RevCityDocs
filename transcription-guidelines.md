@@ -107,6 +107,12 @@ Transcribe unrounded parentheses as a slash "/". If the parentheses look like mo
 ![Parentheses example 2]({{ site.baseurl }}/assets/true-parens.png)
 ![Parentheses example 3]({{ site.baseurl }}/assets/bracket-parens.png)
 
+## Whitespace
+
+Always transcribe whitespace using a single space. Extended breaks in the text should be broken up into separate lines. Do not use multiple spaces to try to imitate the sizing of spaces in the original text.
+
+![Whitespace example]({{ site.baseurl }}/assets/whitespace.png)
+
 ## Currency Notations
 
 Transcribe the long mark for "shillings" as "s".
