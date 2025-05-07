@@ -111,7 +111,8 @@ Please consult the [official documentation](https://escriptorium.readthedocs.io/
 - Confirm with your manager that you are approved for using machine assisted transcription.
 - Select all images you would like to automatically transcribe.
 - Click on the "Transcribe" button.
-- You will be prompted to select a model from the dropdown list. Choose an appropriate model. Consult with your manager about which model to use.
+  - You will be prompted to select a model from the dropdown list. Choose an appropriate model. Consult with your manager about which model to use.
+  - You will be prompted to select a transcription. This is the destination layer for your transcription. You may leave it blank to create a new layer, but it is recommended to use "manual". The transcription you would like to be used on the portal should **always** end up on the "manual" layer.
 - After the transcription is completed, go through the document line by line and correct any errors.
 - In the project log, notate that the document was automatically transcribed and list which model you used.
 
