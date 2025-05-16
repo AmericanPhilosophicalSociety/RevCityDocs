@@ -2,7 +2,7 @@
 layout: page
 title: Transcription Workflow
 permalink: /transcription/
-last_modified_date: 2025-04-07
+last_modified_date: 2025-05-16
 ---
 
 # {{ page.title }}
@@ -81,7 +81,7 @@ Please see the [official documentation](https://escriptorium.readthedocs.io/en/l
 - Add the regions you need for this document under "Region types" on the "Ontology" tab. Make sure you click "Update" at the bottom of the page to save your changes. For correspondence, we use the following regions:
     - Salutation
     - Date and Address (use this even if there is only a date and no location)
-    - Signature (includes the closing of the letter)
+    - Closing (includes the closing of the letter)
     - Addressee (use for the recipient’s name at the bottom of the page of the main text)
     - Address (use for the recipient’s information on the outside/back of the letter)
     - Return Address (information about the sender on the outside/back of the letter)
