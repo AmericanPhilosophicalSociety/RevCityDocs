@@ -84,13 +84,12 @@ Please see the [official documentation](https://escriptorium.readthedocs.io/en/l
     - Closing (includes the closing of the letter)
     - Addressee (use for the recipient’s name at the bottom of the page of the main text)
     - Address (use for the recipient’s information on the outside/back of the letter)
-    - Return Address (information about the sender on the outside/back of the letter)
     - Postscript
-    - Marginalia
+    - Marginalia (use this for all other text regions, including anything besides the address on the outside/back of the letter)
 - For each image, enter region mode by selecting the button with four squares  
 ![eScriptorium image toolbar]({{ site.baseurl }}/assets/image-toolbar.png)
 - Draw the regions for each section. Each region should be large enough to encompass all of the lines it covers. Note that if you automatically segmented the page, the model will have guessed region areas (but not types). These will likely need to be deleted and redrawn.
-- Assign region types. For the body of the letter, use the default region "Main."
+- Assign region types. For the body of the letter, use the default region "Main." If a letter has two pages on one scan, use the regions "Main A" and "Main B" as you would for journals.
 
 #### For journals
 {: .no_toc }
