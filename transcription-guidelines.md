@@ -2,7 +2,7 @@
 layout: page
 title: Transcription Conventions and Guidelines
 permalink: /transcription-guidelines/
-last_modified_date: 2025-04-17
+last_modified_date: 2025-06-03
 ---
 
 {{ page.title }}
@@ -115,9 +115,19 @@ Always transcribe whitespace using a single space. Extended breaks in the text s
 
 ## Currency Notations
 
+All punctuation in currency notations should be transcribed as periods, not commas. 
+
 Transcribe the long mark for "shillings" as "s".
 
 ![Currency example]({{ site.baseurl }}/assets/currency.png)
+
+## Flourishes, illustrations, and structural indications
+
+Flourishes, illustrations, structural indications (e.g. brackets connecting two regions of a document) and any other non-character material should be ignored and not transcribed.
+
+## Repetition marks
+
+The use of two punctuation symbols to indicate that a word or phrase is repeated from the previous line should be transcribed as two periods.
 
 ## Uncertainty
 
