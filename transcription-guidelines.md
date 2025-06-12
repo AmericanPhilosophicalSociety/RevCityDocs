@@ -5,7 +5,7 @@ permalink: /transcription-guidelines/
 last_modified_date: 2025-06-03
 ---
 
-{{ page.title }}
+# {{ page.title }}
 {: .no_toc }
 
 <details open markdown="block">
