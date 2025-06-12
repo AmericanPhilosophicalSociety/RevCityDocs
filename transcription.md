@@ -2,7 +2,7 @@
 layout: page
 title: Transcription Workflow
 permalink: /transcription/
-last_modified_date: 2025-05-16
+last_modified_date: 2025-06-12
 ---
 
 # {{ page.title }}
@@ -139,5 +139,5 @@ See the [official documentation](https://escriptorium.readthedocs.io/en/latest/t
 
 ### 6. Document what you did
 
-- Record the document in the Project Log.
+- Record the document in the Project Log or for volunteers using the [Google form](https://docs.google.com/forms/d/e/1FAIpQLSf1JwO4Lzb5cQs9JSpxyF1wHMqWJ3su4BKL1gCVafcLhtvrIw/viewform?usp=dialog).
 - Notate any difficulties you had in transcribing the page.
