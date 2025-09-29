@@ -14,21 +14,27 @@ This document serves as a guide for digitization practices supporting The Revolu
 * The naming conventions and file organization protocols to be followed  
 
 This document will be updated as needed to reflect changes in software, hardware, or digitization standards.
+## Step 1:  
+Turn on the scanner and allow it to warm up for a few minutes before starting.  
 
-1. Turn on the scanner and allow it to warm up for a few minutes before starting.
-2. Clean glass before each scanning session and as needed.
-3. Load the Epson Scan 2 software from the computer.
+## Step 2:  
+Clean glass before each scanning session and as needed.  
+
+## Step 3:  
+Load the Epson Scan 2 software from the computer.
     * Note: You may need to turn on the scanner, hit refresh on software and choose scanner in order to run software.
 
 ![epson2 scanner desktop shortcut]({{ site.baseurl }}/assets/epson-desktop.png)
 
-4. Determine scan specs by consulting [Digitization Guidelines](https://americanphilosophicalsociety.github.io/RevCityDocs/digitization/) or Workflows Guide.
+## Step 4:  
+Determine scan specs by consulting [Digitization Guidelines](https://americanphilosophicalsociety.github.io/RevCityDocs/digitization/) or Workflows Guide.
     * On the left hand of the screen you will see the Settings. There are two tabs: Main Settings and Advanced Settings.  
     * In the Main Settings menu, choose the appropriate settings.
 
 ![epson2 scanner settings]({{ site.baseurl }}/assets/scanner-settings-whole.png)  
 
-5. Adjust settings for files to be created. This is done at the bottom left of the screen.
+## Step 5:
+Adjust settings for files to be created. This is done at the bottom left of the screen.
     * Image Format: TIFF (always!)  
     * File name: Follow standard for file naming conventions (See step 6).  
     * Folder: Before scanning begins it is important to create a folder where the scans are going to be sent. All scanning should be done to the public drive or external hard drive. Consult Digitization Guidelines or Workflows Guide for [folder naming and structure](https://americanphilosophicalsociety.github.io/RevCityDocs/digitization/#file-storage).
@@ -37,11 +43,13 @@ This document will be updated as needed to reflect changes in software, hardware
 ![epson2 scanner folder browse settings]({{ site.baseurl }}/assets/folder-browse.png)  
 ![epson2 scanner file settings]({{ site.baseurl }}/assets/file-name-settings.png)  
 
-6. Set up the file name conventions.
+## Step 6:  
+Set up the file name conventions.
     * The Prefix should contain the collection number (with underscores instead of periods) and a hyphen to separate the sequential files. The Number of Characters should be padded for 3. The Start Number reflects the page sequence of the current item.
     * In the example above we are scanning material from the Gratz Family papers (Mss.Ms.Coll.72). The file shown is the 53rd folder in the collection and the first item in the folder will be named Mss_Ms_Coll_72_053-001. Each additional scan will be Mss_Ms_Coll_72_053-002, Mss_Ms_Coll_72_0053-003, and so on until a new folder is ready to be scanned.
   
-7. Place the item face down on the scan bed and close the lid, allow for 1/8-1/4” inch margin all around if possible.
+## Step 7:  
+Place the item face down on the scan bed and close the lid, allow for 1/8-1/4” inch margin all around if possible.
     * Selecting the preview button at the bottom left of the screen will generate a preview of what is on the scan bed.  
     * Use your cursor to draw a box of the exact area you want captured by the scanner (this is your marquee - it appears as a dotted line).
     * The scanner will only capture what is within the marquee you have drawn.
@@ -49,11 +57,12 @@ This document will be updated as needed to reflect changes in software, hardware
 
 ![espon2 scanner preview]({{ site.baseurl }}/assets/preview-whole-screen.png)  
 
-8. Begin scanning the material.
+## Step 8:
+Begin scanning the material.
     * Once you have selected the proper area to scan then select the SCAN button at the bottom left of the Epson screen.
     * You will see a green progress bar. Timing of the scan depends on the size of the object and the DPI.
     * Once the progress bar is gone the scan is done and you can move on to the next piece of material within the folder.
-    * Always scan both sides of an item/page, even if blank. See other image capture scenarios [here]{https://americanphilosophicalsociety.github.io/RevCityDocs/digitization/#image-capture).
+    * Always scan both sides of an item/page, even if blank. See other image capture scenarios [here](https://americanphilosophicalsociety.github.io/RevCityDocs/digitization/#image-capture).
     * When all material has been scanned, proceed to [Post-Processing](https://americanphilosophicalsociety.github.io/RevCityDocs/digitization/#post-processing) and [Quality Control](https://americanphilosophicalsociety.github.io/RevCityDocs/digitization/#quality-control-measures) workflows.
 
  ![epson2 scanner whole screen]({{ site.baseurl }}/assets/scan-whole-screen.png)
