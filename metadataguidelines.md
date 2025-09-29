@@ -728,7 +728,7 @@ Replacement | The electronic resource is of high enough quality to serve as a re
 * Use authorized terms from LCSH, LCNAF, or another thesaurus whenever possible.
   *  LC Subject Headings: <http://id.loc.gov/authorities/subjects.html> (Use for topical subjects)
   *  LC Name Authority File: <http://id.loc.gov/authorities/names.html> (Use for name and location subjects)
-  *  LC Authorites (all): <https://authorities.loc.gov/webvoy.htm> 
+  *  LC Authorites (all): <https://authorities.loc.gov> 
   *  FAST: <https://fast.oclc.org/searchfast/>
   *  Homosaurus: <https://homosaurus.org/>  
   *  CNAIR controlled vocabulary : <https://indigenousguide.amphilsoc.org/culture_browse/all>
