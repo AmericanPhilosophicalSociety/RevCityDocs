@@ -18,4 +18,10 @@ This document will be updated as needed to reflect changes in software, hardware
 1. Turn on the scanner and allow it to warm up for a few minutes before starting.
 2. Clean glass before each scanning session and as needed.
 3. Load the Epson Scan 2 software from the computer.
-    *Note: You may need to turn on the scanner, hit refresh on software and choose scanner in order to run software.
+    * Note: You may need to turn on the scanner, hit refresh on software and choose scanner in order to run software.
+![espon2 scanner shortcut image]({{ site.baseurl }}/assets/epson-desktop.png)
+
+4. Determine scan specs by consulting [Digitization Guidelines](https://americanphilosophicalsociety.github.io/RevCityDocs/digitization/) or Workflows Guide.
+    * On the left hand of the screen you will see the Settings. There are two tabs: Main Settings and Advanced Settings.
+    * In the Main Settings menu, choose the appropriate settings.
+![espon2 scanner settings image]({{ site.baseurl }}/assets/scanner-settings-whole.png)
