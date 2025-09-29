@@ -14,3 +14,8 @@ This document serves as a guide for digitization practices supporting The Revolu
 * The naming conventions and file organization protocols to be followed  
 
 This document will be updated as needed to reflect changes in software, hardware, or digitization standards.
+
+1. Turn on the scanner and allow it to warm up for a few minutes before starting.
+2. Clean glass before each scanning session and as needed.
+3. Load the Epson Scan 2 software from the computer.
+    *Note: You may need to turn on the scanner, hit refresh on software and choose scanner in order to run software.
