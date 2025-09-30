@@ -45,3 +45,40 @@ If Digitize a new book is selected, adjusting new book settings will be necessar
 
 ![limp capture new book menu]({{ site.baseurl }}/assets/copibook_2.png)
 
+## Step 4:  
+Place collection material on the scanner bed.
+ * By default, the screen will display the real time preview or scanned image (just after scan).
+ * If marquee is dotted, then:
+    * Right click mouse inside marquee and click ‘auto save’
+    * Marquee should turn to a solid line
+
+## Step 5:  
+Adjust properties of the frames.
+ * Right click inside the marquee and select properties. The frame properties screen will appear.
+
+**Frame name** - Leave as Main_frame
+ 
+**Name pattern**
+ * add root file name in first box
+ * delete all text in third box
+ * you should see a preview of the file name in Name preview field
+
+**Number of digits** - 3  
+
+**Increment** - 1  
+
+![limp capture full screen]({{ site.baseurl }}/assets/copibook_3.png)
+![limp capture right click menu]({{ site.baseurl }}/assets/copibook_4.png)
+![limp capture properties menu]({{ site.baseurl }}/assets/copibook_5.png)
+
+## Step 6:  
+Adjust the marquee to properly capture the image.  
+ * The selected area should perfectly outline the object on the scanner bed leaving a very small, roughly 1 cm. border. Adjust material placement on the scanner bed if necessary and draw the marquee again.
+ * The scanner controls of raising and lowering the platform will need to be adjusted and the glass plate lowered depending on the material.
+
+![copibook scanner controls]({{ site.baseurl }}/assets/scanner-controls.png)  
+
+##
+
+
+
