@@ -59,13 +59,13 @@ Adjust properties of the frames.
 **Frame name** - Leave as Main_frame
  
 **Name pattern**
- * add root file name in first box
- * delete all text in third box
- * you should see a preview of the file name in Name preview field
+ * Add root file name in first box
+ * Delete all text in third box
+ * You should see a preview of the file name in Name preview field
 
 **Number of digits** - 3  
 
-**Increment** - 1  
+**Increment** - 1 (this indicates you would like to start at 1)
 
 ![limp capture full screen]({{ site.baseurl }}/assets/copibook_3.png)
 ![limp capture right click menu]({{ site.baseurl }}/assets/copibook_4.png)
@@ -78,7 +78,26 @@ Adjust the marquee to properly capture the image.
 
 ![copibook scanner controls]({{ site.baseurl }}/assets/scanner-controls.png)  
 
-##
+
+## Step 7:  
+Once frames are ready and properly adjusted, scanning can begin!  
+ * Click either of the scan buttons on the controls or on the left bottom of the software window.  
+ * Once the progress bar is gone the scan is done and you can move on to the next piece of material within the folder.  
+ * Always scan both sides of an item/page, even if blank. See other image capture scenarios [here](https://americanphilosophicalsociety.github.io/RevCityDocs/digitization/#image-capture).  
+ * After each scan a thumbnail of the completed scan will be available on the left side of the screen. These previews should be periodically checked for quality control.  
+ * Double clicking on the thumbnail image at the left will open up a larger preview of the image in a viewer.  
+ * If you need to delete a page, you can remove its thumbnail image (it will remove the file from the server or hardrive as well). However, make sure to update the increment value in the properties menu to keep the file sequence in order.  
+
+![copibook thumbnail and preview]({{ site.baseurl }}/assets/copibook_6.png)  
+
+
+## Step 8:
+After all material has been scanned:
+ * Remove material from scanner bed
+ * Lower scanner bed and glass
+ * Proceed to [Post-Processing](https://americanphilosophicalsociety.github.io/RevCityDocs/digitization/#post-processing) and [Quality Control](https://americanphilosophicalsociety.github.io/RevCityDocs/digitization/#quality-control-measures) workflows.
+
+
 
 
 
