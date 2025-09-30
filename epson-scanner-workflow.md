@@ -29,10 +29,10 @@ Determine scan specs by consulting [Digitization Guidelines](https://americanphi
  * On the left hand of the screen you will see the Settings. There are two tabs: Main Settings and Advanced Settings.
  * In the Main Settings menu, choose the appropriate settings.  
 
-Mode: Photo Mode  
-Document Source: Scanner Glass  
-Document Type: Reflective  
-Scanning Quality: Standard
+**Mode**: Photo Mode  
+**Document Source**: Scanner Glass  
+**Document Type**: Reflective  
+**Scanning Quality**: Standard
 
 
 ![epson2 scanner settings]({{ site.baseurl }}/assets/scanner-settings-whole.png)  
