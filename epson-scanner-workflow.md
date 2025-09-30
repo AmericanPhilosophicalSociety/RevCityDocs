@@ -68,7 +68,7 @@ Place the item face down on the scan bed and close the lid, allow for 1/8-1/4”
 Begin scanning the material.
  * Once you have selected the proper area to scan then select the SCAN button at the bottom left of the Epson screen.
  * You will see a green progress bar. Timing of the scan depends on the size of the object and the DPI.
- * Once the progress bar is gone the scan is done and you can move on to the next piece of material within the folder.
+ * Once the progress bar is gone the scan is done and you can move on to the next piece of material within the folder. Keep in mind that you will need to update the file name and folder destination for each new folder.
  * Always scan both sides of an item/page, even if blank. See other image capture scenarios [here](https://americanphilosophicalsociety.github.io/RevCityDocs/digitization/#image-capture).
 
  ![epson2 scanner whole screen]({{ site.baseurl }}/assets/scan-whole-screen.png)
