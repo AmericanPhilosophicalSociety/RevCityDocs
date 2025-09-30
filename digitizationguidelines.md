@@ -74,8 +74,10 @@ All digitized material should be scanned according to specifications based upon 
 
 Item Type | Resolution (dpi) | Color Space | Bit Depth | File Format | Notes
 --- | :---: | :---: | :---: | :---: | :---:
-Manuscripts & (Rare) typed/printed | 400-600 | Color | 24-bit | Raw TIFF |
-(Non-rare) Typed/printed | 300-400 | Color | 24-bit | Raw TIFF | Higher resolution if item is poor in quality or legibility
+Manuscripts & (Rare) typed/printed | 400 | Color | 24-bit | Raw TIFF | Higher resolution if item is poor in quality or legibility  
+Maps and graphics | 500 | Color | 24-bit | Raw TIFF |  
+(Non-rare) Typescript and printed books | 300 | Color | 24-bit | Raw TIFF | Higher resolution if item is poor in quality or legibility  
+Image(s) within a typescript and printed book | 400 | Color | 24-bit | Raw TIFF |  
 
 
 ## **File Storage**
