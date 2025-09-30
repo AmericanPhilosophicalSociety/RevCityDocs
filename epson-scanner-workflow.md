@@ -70,9 +70,16 @@ Begin scanning the material.
  * You will see a green progress bar. Timing of the scan depends on the size of the object and the DPI.
  * Once the progress bar is gone the scan is done and you can move on to the next piece of material within the folder.
  * Always scan both sides of an item/page, even if blank. See other image capture scenarios [here](https://americanphilosophicalsociety.github.io/RevCityDocs/digitization/#image-capture).
- * When all material has been scanned, proceed to [Post-Processing](https://americanphilosophicalsociety.github.io/RevCityDocs/digitization/#post-processing) and [Quality Control](https://americanphilosophicalsociety.github.io/RevCityDocs/digitization/#quality-control-measures) workflows.
 
  ![epson2 scanner whole screen]({{ site.baseurl }}/assets/scan-whole-screen.png)
+
+## Step 9:
+After all material has been scanned:
+ * Remove material from scanner bed
+ * Lower scanner lid.
+ * Proceed to [Post-Processing](https://americanphilosophicalsociety.github.io/RevCityDocs/digitization/#post-processing) and [Quality Control](https://americanphilosophicalsociety.github.io/RevCityDocs/digitization/#quality-control-measures) workflows.
+
+
      
 
 
