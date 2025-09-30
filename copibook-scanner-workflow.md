@@ -81,8 +81,8 @@ Adjust the marquee to properly capture the image.
 
 ## Step 7:  
 Once frames are ready and properly adjusted, scanning can begin!  
- * Click either of the scan buttons on the controls or on the left bottom of the software window.  
- * Once the progress bar is gone the scan is done and you can move on to the next piece of material within the folder.  
+ * Click either of the scan buttons on the controls or on the right bottom side of the software window.  
+ * Once the progress bar is gone the scan is done and you can move on to the page in the volume or piece of material within the folder.  
  * Always scan both sides of an item/page, even if blank. See other image capture scenarios [here](https://americanphilosophicalsociety.github.io/RevCityDocs/digitization/#image-capture).  
  * After each scan a thumbnail of the completed scan will be available on the left side of the screen. These previews should be periodically checked for quality control.  
  * Double clicking on the thumbnail image at the left will open up a larger preview of the image in a viewer.  
