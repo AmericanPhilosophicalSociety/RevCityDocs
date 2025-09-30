@@ -75,7 +75,7 @@ Begin scanning the material.
 
 ## Step 9:
 After all material has been scanned:
- * Remove material from scanner bed
+ * Remove material from scanner bed.
  * Lower scanner lid.
  * Proceed to [Post-Processing](https://americanphilosophicalsociety.github.io/RevCityDocs/digitization/#post-processing) and [Quality Control](https://americanphilosophicalsociety.github.io/RevCityDocs/digitization/#quality-control-measures) workflows.
 
