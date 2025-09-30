@@ -26,12 +26,20 @@ Load the Epson Scan 2 software from the computer.
 
 ![epson2 scanner desktop shortcut]({{ site.baseurl }}/assets/epson-desktop.png)
 
+
 ## Step 4:  
 Determine scan specs by consulting [Digitization Guidelines](https://americanphilosophicalsociety.github.io/RevCityDocs/digitization/) or Workflows Guide.
  * On the left hand of the screen you will see the Settings. There are two tabs: Main Settings and Advanced Settings.
- * In the Main Settings menu, choose the appropriate settings.
+ * In the Main Settings menu, choose the appropriate settings.  
+
+Mode: Photo Mode  
+Document Source: Scanner Glass  
+Document Type: Reflective  
+Scanning Quality: Standard
+
 
 ![epson2 scanner settings]({{ site.baseurl }}/assets/scanner-settings-whole.png)  
+
 
 ## Step 5:
 Adjust settings for files to be created. This is done at the bottom left of the screen.
@@ -42,6 +50,7 @@ Adjust settings for files to be created. This is done at the bottom left of the 
 ![epson2 scanner image format]({{ site.baseurl }}/assets/image-format.png)  
 ![epson2 scanner folder browse settings]({{ site.baseurl }}/assets/folder-browse.png)  
 ![epson2 scanner file settings]({{ site.baseurl }}/assets/file-name-settings.png)  
+
 
 ## Step 6:  
 Set up the file name conventions.
@@ -56,6 +65,7 @@ Place the item face down on the scan bed and close the lid, allow for 1/8-1/4”
  * The selected area should perfectly outline the object on the flatbed leaving a very small, roughly 1 cm border. Adjust material placement on the scan bed if necessary and draw the marquee again.
 
 ![espon2 scanner preview]({{ site.baseurl }}/assets/preview-whole-screen.png)  
+
 
 ## Step 8:
 Begin scanning the material.
