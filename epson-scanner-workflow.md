@@ -10,7 +10,7 @@ last_modified_date: September 30 2025
 This document serves as a guide for digitization practices supporting The Revolutionary City: A Portal to the Nation’s Founding, a collaborative digital project utilizing Islandora and Drupal platforms. Specifically, it is intended to guide project staff in the use of the Epson Expression 12000XL flatbed scanner to produce high-quality digital surrogates of original materials. 
 
 This document will be updated as needed to reflect changes in software, hardware, or digitization standards.  
----
+
 ## Step 1:  
 Turn on the scanner and allow it to warm up for a few minutes before starting.  
 
