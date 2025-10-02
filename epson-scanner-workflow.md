@@ -42,7 +42,7 @@ Determine scan specs by consulting [Digitization Guidelines](https://americanphi
 Adjust settings for files to be created. This is done at the bottom left of the screen.
  * Image Format: TIFF (always!)
  * File name: Follow standard for file naming conventions (See step 6).
- * Folder: Before scanning begins it is important to create a folder where the scans are going to be sent. All scanning should be done to the public drive or external hard drive. Consult Digitization Guidelines or Workflows Guide for [folder naming and structure](https://americanphilosophicalsociety.github.io/RevCityDocs/digitization/#file-storage).
+ * Folder: Before scanning begins it is important to create a folder where the scans are going to be sent. All scans should be saved to the public drive or external hard drive. Consult Digitization Guidelines or Workflows Guide for [folder naming and structure](https://americanphilosophicalsociety.github.io/RevCityDocs/digitization/#file-storage).
 
 ![epson2 scanner image format]({{ site.baseurl }}/assets/image-format.png)  
 ![epson2 scanner folder browse settings]({{ site.baseurl }}/assets/folder-browse.png)  
@@ -55,8 +55,8 @@ Set up the file name conventions.
  * In the example above we are scanning material from the Gratz Family papers (Mss.Ms.Coll.72). The file shown is the 53rd folder in the collection and the first item in the folder will be named Mss_Ms_Coll_72_053-001. Each additional scan will be Mss_Ms_Coll_72_053-002, Mss_Ms_Coll_72_0053-003, and so on until a new folder is ready to be scanned.
   
 ## Step 7:  
-Place the item face down on the scan bed and close the lid, allow for 1/8-1/4” inch margin all around if possible.
- * Selecting the preview button at the bottom left of the screen will generate a preview of what is on the scan bed.
+Place the item face down on the scanner bed and close the lid, allow for 1/8-1/4” inch margin all around if possible.
+ * Selecting the preview button at the bottom left of the screen will generate a preview of what is on the scanner bed.
  * Use your cursor to draw a box of the exact area you want captured by the scanner (this is your marquee - it appears as a dotted line).
  * The scanner will only capture what is within the marquee you have drawn.
  * The selected area should perfectly outline the object on the flatbed leaving a very small, roughly 1 cm border. Adjust material placement on the scan bed if necessary and draw the marquee again.
