@@ -86,11 +86,11 @@ Adjust the marquee to properly capture the image.
 ## Step 7:  
 Once frames are ready and properly adjusted, scanning can begin!  
  * Press either of the Scan buttons on the scanner controls or click the Scan button on the right bottom side of the window.  
- * Once the progress bar is gone the scan is done and you can move on to the page in the volume or piece of material within the folder.  
+ * Once the progress bar is yellow you can move on to the next page in the volume or piece of material within the folder.  
  * Always scan both sides of an item/page, even if blank. See other image capture scenarios [here](https://americanphilosophicalsociety.github.io/RevCityDocs/digitization/#image-capture).  
  * After each scan a thumbnail of the completed scan will be available on the left side of the screen. These previews should be periodically checked for quality control.  
  * Double clicking on the thumbnail image at the left will open up a larger preview of the image in a viewer.  
- * If you need to delete a page, you can remove its thumbnail image (it will remove the file from the server or hardrive as well). However, make sure to update the increment value in the properties menu to keep the file sequence in order.  
+ * If you need to delete a page, you can delete its thumbnail image (it will remove the file from the server or hardrive as well). However, make sure to update the *Image number* value in the properties menu to keep the file sequence in order. Other you will need to use Bulk Rename Utility software to rename files after scanning is complete.  
 
 ![copibook thumbnail and preview]({{ site.baseurl }}/assets/copibook_6.png)  
 
