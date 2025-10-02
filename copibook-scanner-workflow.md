@@ -65,7 +65,11 @@ Adjust properties of the frames.
 
 **Number of digits** - 3  
 
-**Increment** - 1 (this indicates you would like to start at 1)
+**Image number** - 1 (this indicates you would like to start at 1)  
+
+**Increment** - 1 (this indicates you would like files to be sequential)
+
+**File formats** - tif (for preservation quality)
 
 ![limp capture full screen]({{ site.baseurl }}/assets/copibook_3.png)
 ![limp capture right click menu]({{ site.baseurl }}/assets/copibook_4.png)
