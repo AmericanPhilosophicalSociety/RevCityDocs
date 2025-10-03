@@ -2,7 +2,7 @@
 layout: page
 title: Digitization Guidelines
 permalink: /digitization/
-last_modified_date: June 10 2024
+last_modified_date: October 3 2025
 ---
 
 # {{ page.title }}
@@ -64,9 +64,15 @@ Epson GT-15000 | Flatbed scanner | 11.5” x 16.5” | Photographic prints, grap
 CopiBook OS XD | Overhead scanner | 20” x 28” | Maps, oversize graphic materials, bound volumes (manuscript or printed) 
 CopiBook Cobalt | Overhead scanner | 20” x 28” | Maps, oversize graphic materials, bound volumes (manuscript or printed) 
 
-*  Bound material should be scanned on a CopiBook Book Scanner. Detailed instructions on the CopiBook OS XD can be found here (LINK) and instructions on the CopiBook Cobalt can be found here (LINK).
-*  Unbound textual material should be scanned on an Epson Flatbed Scanner. Detailed instructions on the Epson Expression 12000 XL can be found here (LINK) and on the Epson FT-15000 can be found here (LINK).
-*  Maps and similarly oversized materials should be scanned on a CopiBook Book Scanner. Detailed instructions on the CopiBook OS XD can be found here (LINK) and instructions on the CopiBook Cobalt can be found here (LINK).
+![epson expression 1200XL flatbed scanner]({{ site.baseurl }}/assets/epson-1200.jpg)  
+*(Espon Expression 1200XL flatbed scanner pictured above)*
+
+![Copibook OS XD book scanner]({{ site.baseurl }}/assets/copi-book-osxd.png)  
+*(Copibook OS XD book scanner pictured above)*
+
+
+*  Bound material, maps, and oversized material should be scanned on a CopiBook Book Scanner. Detailed instructions on the CopiBook OS XD can be found [here](https://americanphilosophicalsociety.github.io/RevCityDocs/copibook/)
+*  Unbound textual material should be scanned on an Epson Flatbed Scanner. Detailed instructions on the Epson Expression 12000 XL can be found [here](https://americanphilosophicalsociety.github.io/RevCityDocs/epson-flatbed/)
 *  Extra oversized material will need to be consulted with your supervisor.
 
 
@@ -75,7 +81,7 @@ All digitized material should be scanned according to specifications based upon 
 Item Type | Resolution (dpi) | Color Space | Bit Depth | File Format | Notes
 --- | :---: | :---: | :---: | :---: | :---:
 Manuscripts & (Rare) typed/printed | 400 | Color | 24-bit | Raw TIFF | Higher resolution if item is poor in quality or legibility  
-Maps and graphics | 500 | Color | 24-bit | Raw TIFF |  
+Oversized items: Maps, Posters, etc. | 500 | Color | 24-bit | Raw TIFF | Higher resolution if item is poor in quality or legibility 
 (Non-rare) Typescript and printed books | 300 | Color | 24-bit | Raw TIFF | Higher resolution if item is poor in quality or legibility  
 Image(s) within a typescript and printed book | 400 | Color | 24-bit | Raw TIFF |  
 
@@ -87,8 +93,17 @@ File organization and naming is a vital component of maintaining a clear connect
 
 The files should be arranged by collection (prefixed with the collection call number or accession number).
 * The folder name must be the same root as the file name
-  *  Folder name = Mss_Coll_190 ;
-  *  Filenames within folder = Mss_Coll_190-001.tif, Mss_Coll_190-002.tif, Mss_Coll_190-003.tif, etc.
+  *  Folder name = Mss_973_D32_001 ;
+  *  Filenames within folder = Mss_973_D32_001-001.tif, Mss_973_D32_001-002.tif, Mss_973_D32_001-003.tif, etc.
+
+![file explorer example file structure]({{ site.baseurl }}/assets/file-format.png)
+
+
+Use Bulk Utility Rename software to bulk rename files. Bulk Utility Rename is a powerful and user-friendly tool designed to efficiently rename multiple files and folders at once.
+
+![bulk utility rename guide]({{ site.baseurl }}/assets/bulk-rename.png)
+
+![bulk utility rename guide]({{ site.baseurl }}/assets/bulk-rename-2.png)
 
 For specific information on file naming conventions, see The Revolutionary City Metadata Guidelines. For special cases, consult your project supervisor.
 
@@ -126,6 +141,9 @@ For various scenarios below, always use your best judgment and when in doubt, co
   2. Page with fold out or insert removed (if possible) to capture obstructed text or image
   3. Insert by itself
   *  This will occur most often with bound material, however, loose material may also contain fasteners that cannot be removed.
+
+![manuscript example]({{ site.baseurl }}/assets/manuscript-example.png)  
+*(example of a folded manuscript letter scanned as three separate images)*
  
 ## **Post Processing**
 When viewing images in Image Viewer or Photoshop, check for:
@@ -137,6 +155,8 @@ When viewing images in Image Viewer or Photoshop, check for:
   *  If there are several pages or a whole book object that needs the same crop, you can run a batch process on the object.
 * Skew
   *  Straighten only in extreme cases.
+
+![post processing using photoshop]({{ site.baseurl }}/assets/post-photoshop.png)
  
 The Project Team will perform any post scan/digitization adjustments if needed. Please contact Project Data Manager if you have any questions or concerns about the faithfulness of the scanned image(s) to the original(s).
 
