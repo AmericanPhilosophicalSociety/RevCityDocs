@@ -11,6 +11,8 @@ This document serves as a guide for digitization practices supporting The Revolu
 
 This document will be updated as needed to reflect changes in software, hardware, or digitization standards.  
 
+![copibook os xd book scanner]({{ site.baseurl }}/assets/copi-book-osxd.png)
+
 ## Step 1: 
 Open Limb Capture program from desktop. 
 
@@ -85,8 +87,14 @@ Adjust the marquee to properly capture the image.
 
 ## Step 7:  
 Once frames are ready and properly adjusted, scanning can begin!  
- * Press either of the Scan buttons on the scanner controls or click the Scan button on the right bottom side of the window.  
- * Once the progress bar is yellow you can move on to the next page in the volume or piece of material within the folder.  
+ * Press either of the Scan buttons on the scanner controls or click the Scan button on the right bottom side of the window.
+
+
+   *When the Scan button is selected, a progress bar will appear. The bar will initially display red, then change to yellow, at which point you may turn the page. Once it turns green, the system is ready to begin the next scan.*  
+   ***Important**: Starting a scan while the progress bar is still red or yellow may cause the program to crash.*  
+   *The duration of each stage (red, yellow, green) may vary depending on the file size, file type, and the dimensions of the scanned material.*  
+
+ 
  * Always scan both sides of an item/page, even if blank. See other image capture scenarios [here](https://americanphilosophicalsociety.github.io/RevCityDocs/digitization/#image-capture).  
  * After each scan a thumbnail of the completed scan will be available on the left side of the screen. These previews should be periodically checked for quality control.  
  * Double clicking on the thumbnail image at the left will open up a larger preview of the image in a viewer.  
