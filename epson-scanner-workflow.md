@@ -11,6 +11,8 @@ This document serves as a guide for digitization practices supporting The Revolu
 
 This document will be updated as needed to reflect changes in software, hardware, or digitization standards.  
 
+![epson expression 1200xl flatbed scanner]({{ site.baseurl }}/assets/epson-1200.jpg)
+
 ## Step 1:  
 Turn on the scanner and allow it to warm up for a few minutes before starting.  
 
