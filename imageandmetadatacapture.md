@@ -6,7 +6,7 @@ last_modified_date: May 27 2024
 ---
 # {{ page.title }}
 
-This document is intended as a quick reference for digitization workflow, specifically image and metadata capture for _The Revolutionary City: A Portal to the Nation’s Founding_, a collaborative digital project using Islandora and Drupal software. Refer to [_The Revolutionary City_ Digitization Guidelines](https://americanphilosophicalsociety.github.io/RevCityDocs/digitization/) and/or [_The Revolutionary City_ Digitization Workflows Guide](https://docs.google.com/presentation/d/1STI-qUVlGjjtBmtEin_qq4iXElq_usPd1lTL0Dxvy1w/edit#slide=id.g583e451791_0_92) for further details and instructions on steps in this workflow.
+This document is intended as a quick reference for digitization workflow, specifically image and metadata capture for _The Revolutionary City: A Portal to the Nation’s Founding_, a collaborative digital project using Islandora and Drupal software. Refer to [_The Revolutionary City_ Digitization Guidelines](https://americanphilosophicalsociety.github.io/RevCityDocs/digitization/) for further details and instructions on steps in this workflow.
 
 
 ### **Review collection for metadata management**
@@ -21,7 +21,7 @@ This document is intended as a quick reference for digitization workflow, specif
 * If using a book scanner, material will be scanned at a faster rate. Prioritize scanning over simultaneous metadata capture.
 3. Perform any post-procesing to digital files.
 4. Perform quality control on digital files.
-* Capture basic metadata while qiality checking digital scans.
+* Capture basic metadata while quality checking digital scans.
 
 ### **Metadata enhancement**
 1. Create and complete all required metadata according to project standards. See [Required Metadata](https://americanphilosophicalsociety.github.io/RevCityDocs/metadata/#required-metadata).
