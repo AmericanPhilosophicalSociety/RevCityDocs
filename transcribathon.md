@@ -61,7 +61,7 @@ Once you have selected the images, click the "Transcribe" button.
 
 ![Image select]({{ site.baseurl }}/assets/image-select.png)
 
-You will then be asked to select a model and a transcription. For the model, choose whatever you would like. For transcription, select "-- New --". The system may automatically select a different transcription for you, so make sure you change it to "-- New --". Then click transcribe to begin transcribing.
+You will then be asked to select a model and a transcription. For the model, choose whatever you would like. For transcription, select "manual". The system may automatically select a different transcription for you, so make sure you change it to "manual". Then click transcribe to begin transcribing.
 
 ![Select transcription]({{ site.baseurl }}/assets/select-transcription.png)
 
