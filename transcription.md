@@ -78,7 +78,8 @@ Please see the [official documentation](https://escriptorium.readthedocs.io/en/l
 #### For correspondence
 {: .no_toc }
 
-- Add the regions you need for this document under "Region types" on the "Ontology" tab. Make sure you click "Update" at the bottom of the page to save your changes. For correspondence, we use the following regions:
+- Add the regions you need for this document under "Region types" on the "Ontology" tab. Make sure you click "Update" at the bottom of the page to save your changes. Please [refer to the annotation samples]({{ site.baseurl }}/segmentation-examples).
+- For correspondence, we use the following regions:
     - Salutation
     - Date and Address (use this even if there is only a date and no location)
     - Closing (includes the closing of the letter)
