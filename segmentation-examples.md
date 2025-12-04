@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Image Segmentation examples
+title: Image Segmentation Examples
 permalink: /segmentation-examples/
 last_modified_date: 2025-12-04
 ---
