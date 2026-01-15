@@ -2,7 +2,7 @@
 layout: page
 title: Transcription Workflow
 permalink: /transcription/
-last_modified_date: 2025-06-12
+last_modified_date: 2026-01-15
 ---
 
 # {{ page.title }}
@@ -23,6 +23,8 @@ Note: This documentation is meant to supplement, not replace, the complete [eScr
 
 ### Upload a whole collection
 
+*Note*: Due to system changes affecting the eScriptorium server, the continued ability to upload whole collections automatically may have been disrupted. Individual uploads are the preferred workflow for most projects.
+
 #### For RevCity admins:
 {: .no_toc }
 
@@ -35,14 +37,18 @@ Send a link to the collection you would like to import to the project managers.
 
 ### Upload individual documents
 
-Prepare a CSV following [this template](https://github.com/AmericanPhilosophicalSociety/RevCityDocs/blob/main/templates/transcription-upload-template.csv). Your CSV should include the following:
+The Rev City project currently encourages all docuemnts to use the [IIIF import process](https://escriptorium.readthedocs.io/en/latest/import/#3-from-iiif).
 
-- the Drupal NID for the document
-- the title of the document as you would like it to appear in eScriptorium (should match Drupal)
-- the project name you would like to have in eScriptorium
-- the machine-readable name for the folder the documents will be stored in
+1. [Create a project]( to hold your documents.
+2. For each document, create a new document in eScriptorium for the object.
+3. Copy and paste the object's title from the Rev City Portal into the field "Name."
+4. For the field Script (represented by dashes on the form), select Latin.
+5. Press "Create" to create the document.
+6. In the Rev City Portal, find the object's IIIF manifest and copy it to your clipboard.
+![example of the IIIF manifest]({{ site.baseurl }}/assets/iiif-manifest.png)
+7. On the image panel in eScriptorium, click "Import" and select "Images (IIIF)".
+8. Paste the object's IIIF manifest into the text box and click "Start importing".
 
-Send your CSV to a project manager who can run the script for upload.
 
 ## Transcription Steps
 
