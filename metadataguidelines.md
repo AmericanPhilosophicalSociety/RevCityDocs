@@ -533,7 +533,7 @@ Song recording | 0:03:55
   *  AAT: <http://www.getty.edu/research/tools/vocabularies/aat/>
   *  MARCGT: <https://www.loc.gov/standards/valuelist/marcgt.html> 
 * Be consistent and use Plural terms with the first letter capitalized.
-* Separate multiple entries with a semicolon and no spaces in between entries
+* Separate multiple entries with a pipe "|" and no spaces in between entries
 
 
 Additional information regarding Genre:  
